@@ -1,0 +1,5 @@
+book_filename: "1540_syllabus"
+delete_merged_file: true
+language:
+  ui:
+    chapter_name: "Chapter "

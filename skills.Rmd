@@ -1,0 +1,25 @@
+## Skills
+
+
+**Key Skills**:
+1. Understanding R code  
+2. Data visualization  
+3. Graph interpretation  
+4. ...  
+
+
+Key to Computational Biology will be developing skills as a critical practioner and consumer of science.  The course will heavily emphasize the application of skills related to scientific programming, including understanding and modifying R code, plotting data, organizing computational workflows, annotating computational projects.  A central set of skill we be learnign to intepret the types of graphs used in computational biology, including alignments, phylogenies, networks, heatmaps, and ordination plots.  The course will also introduce basic skills related to statistics, probablity, and mathematical modeling.  We will also emphasize critical reading and interpretation of the primary literature.
+
+```{r fig.margin = TRUE, fig.caption = "A phylogeny", message=FALSE}
+
+library(ape)
+
+cat("(((Strix_aluco:4.2,Asio_otus:4.2):3.1,",
+"Athene_noctua:7.3):6.3,Tyto_alba:13.5);",
+file = "ex.tre", sep = "\n")
+tree.owls <- read.tree("ex.tre")
+plot(tree.owls)
+unlink("ex.tre") # delete the file "ex.tre"
+
+```
+

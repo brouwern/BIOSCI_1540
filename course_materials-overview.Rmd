@@ -1,0 +1,13 @@
+# Course materials overview
+
+Thanks to an Open Educational Resources (OER) grant from The Office of the Provost, there are no books to buy for this course - all course materials are free and will be provided digitally through Canvas.
+
+Reading will take many forms: files containing computer code (scripts), articles and blog posts, as well as textbook.   However, we'll be taking a very novel approach to the textbook for this course: **you will actually be building it yourself!**
+
+Details will be provided in-class, but the gist regarding the textbook is:
+1. Most weeks you will be provided 1 or 2 chapters of the book in the form of computer files ("scripts").
+1. For homework you will do exercises embedded in the chapters.
+1. When the exercises are successfully completed you will be able to convert the files to Web Pages and post them to your own Portofolio of book chapters and other completed activites.
+
+
+<!-- Example of RPubs? -->

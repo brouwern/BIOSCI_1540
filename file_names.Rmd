@@ -1,0 +1,11 @@
+## File names for homework
+
+All files your create which get submitted for homework need to be in lower case and **strictly** adhere to this format:
+
+> "pittemail_lastname_assignmenttitle"
+
+For example:
+
+"nlb24_brouwer_assign_1.rmd"
+
+<!-- Any assignment submitted with an incorrect file name will recieve zero points and not be graded. If the file name is corrected the assignment will be graded but have 20% of the total points deducted. -->

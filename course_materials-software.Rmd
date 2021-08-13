@@ -1,0 +1,65 @@
+# Course materials - Software
+
+Installation and account creation for all software will be covered in detail during class or via assignmetns and accompanying videos.  If you want to get prepared early for the course you can explore these on your own.
+
+## Primary software
+
+### Programming environment: R
+
+We will use the open-source language R for almost everything in this course.
+
+**NOTE**: If you have used R before that's awesome!  **Please update your installation when the class begins** - R goes through regular updates and works best with the newest version.
+
+If you are having trouble installing R an excellent resource is: 
+https://learningstatisticswithr.com/book/introR.html
+
+R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. www.R-project.org/.
+
+
+
+### Integrated developement environment
+
+We'll use RStudio as the front-end for working with R.
+
+**NOTE**: If you've use RStudio before please update it when the course begins.
+
+**RStudio:** www.rstudio.com/products/rstudio/download/#download  
+
+### Cloud-based R
+
+As a back-up to running R on your desktop I'll also introduce you to RStudio Cloud.  There are also several excellent [primers](https://rstudio.cloud/learn/primers) which we'll use.  
+
+**RStudio cloud:** https://rstudio.cloud/ 
+
+## Code sharing
+
+### Microsoft SharePoint
+
+R code and other files will be distributed to you via a personal folder on SharePoint, accessed via your OneDrive account.
+
+You will need to "sync" your OneDrive account to your computer desktops to allow me to help you with your work.  No code files will be shared via email or Canvas during the course.
+
+
+**NOTE**: If you do not have access to a computer you can sync your OneDrive account please contact me so we can workout a system.
+
+### GitHub
+
+Most code for this course will be available on GitHub and you will need to create an account for some activities.
+
+**GitHub:** https://github.com/ 
+
+## R packages
+
+Many R packages (aka libraries) will be used in this course.  Below are several key ones.
+
+### swirl
+
+*swirl* is an R package that sets up interactive tutorials in your R console.  It works both on desktop computers and RStudio cloud and is an excellent tool for learning and reviewing R.  
+
+<!-- Details for installing swirl can be found here. -->
+
+### Bioconductor
+
+**Bioconductor** is a clearing house and repository for high-grade bioinformatics and computational biology software using R. 
+
+<!-- Details for installing Bioconductor can be found here  -->

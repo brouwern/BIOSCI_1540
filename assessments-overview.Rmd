@@ -1,0 +1,35 @@
+# Assessments Overview {#assessments}
+
+The primary form of assessment in the course will be regular tests (5).  
+
+Other forms of assessment may include,
+1. Test revisions (aka Test Reworks), which will count as a form of homework.  
+1. Quiz questions related to lecture videos, code checkpoints to assure that you can execute key functions, and software checkpoints to assure that you have the proper software involved.
+1. Additional homework
+1. Practice tests
+
+## Online Test-taking policies
+
+Tests may be administered online. 
+
+<!-- Tests will be scheduled to open on a specific day and remain open for a window of time, usually at least 24 hours -->
+<!-- Test format will vary depending on the learning objectives of a unit.  Some tests will be timed (e.g. 45 minutes with only 1 attempt), or may be un-timed and/or allow multiple attempts. -->
+<!-- Prior to any test policies for each test will be clearly articulated during lecture and in writing. -->
+<!-- It is your responsibility to assure that you have adequate power in your devices and internet access to complete exams.   See "Test Grading Policies" below for contingencies if you have technical issues. -->
+<!-- Tests will be open book and open note.   -->
+<!-- You may not communicate with other students while taking a test. -->
+
+
+## Final Exam Policies
+
+
+The final exam will ...
+1, Take place during finals week on the day scheduled by the University
+1. May be online or in person
+1. Is required
+1. Follow the general format of other tests.
+
+## Assessments 
+
+<!-- TODO: dropping? -->
+As noted previously, your lowest 2 test score will be dropped.  Your next lowest test score can be replaced by your final exam, if your final exam score is higher.  The final exam can therefore only benefit your score.

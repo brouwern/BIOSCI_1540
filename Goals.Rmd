@@ -1,0 +1,19 @@
+## Course Goals
+
+The goals of Computational Biology is to introduce you to key concepts relatd to how computers are used to solve biological problems, and build skills essential to your success working on projects related to computational biology and bioinformatics.
+
+<!-- ## Key concepts -->
+
+<!-- 1. Genomics  -->
+<!-- 1. Phylogeny   -->
+<!-- 1. Homology   -->
+<!-- 1. Bioinformatics   -->
+<!-- 1. Scripting in R  -->
+
+<!-- Biology is the study of life in all its forms and at all scales, from the interactions of biomolecues to the functioning of the entire planet. The aim of Computational Biology is to provide you with a solid grounding in the diverse biological questions that can be addressed with computational methods approaches.  At the core of the course will be computational investigations in genomics and phylogenetics; we will also address proteomics, ecology, and evolution. -->
+
+<!-- We will begin the semester with an introduction to broad themes in **computational biology** and a key tool for tackling computationl problems: the **statistical progamming language R**.  We will discuss the types of questions which obligately rely on computational methods (**obligate computational biology**) and how all areas of biology can benefit from adopting computational methods, ways of thinking, and workflows (**facultative computational biology**).   -->
+
+<!-- After getting a broad perspective on computationl biology we will begin using R under how to **align DNA sequences**, identify targets for investigation using **computational gene finding** using **machine learning**, and build **phylogenetic trees** based on the likely **evolutionary homology** between DNA and protein sequences.  Once we have basic understanding of genomics and phylogenetics we will unpack the inner workings of how DNA sequences are aligned, such as **Hidden Markov Models**, and how phylogenies are built using estimates of **genetic distance**, **parsimony algorithms**, and statistical approaches such as **maximum likelihood** and **Bayesian statistics.**  We will also show how these methods are applied in other areas of biology, especially ecology. -->
+
+<!-- In the last third of the semester we will broaden our scope to explore **biological networks**, including **phylogeneic networks**,  **disease transmission networks,** and networks of **ecological interactions**.  We will also apply the concepts of **homology** and phylogenetic trees to the tasks of modeling the secondary and tertirary of macromolecules such as RNA and proteins.  -->

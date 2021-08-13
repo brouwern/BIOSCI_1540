@@ -1,0 +1,579 @@
+---
+title: "BIOSCI 1540: Computational Biology"
+subtitle: "Computer Rule!"
+author: "Nathan Brouwer, PhD"
+date: "Fall 2019 (Term xxx)"
+output:
+  tufte::tufte_handout: default
+  tufte::tufte_html: default
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tufte)
+library(readxl)
+library(knitr)
+
+#Load grade scale
+grade_scale <- read.csv("grade_scale.csv")
+
+#Load points breakdown
+point_breakdown <- readxl::read_excel("points_breakdown.xlsx", sheet = "spring2019")
+
+#clean points breakdown
+names. <- names(point_breakdown)
+point_breakdown$Category[is.na(point_breakdown$Category)] <- ""
+point_breakdown <- data.frame(point_breakdown)
+names(point_breakdown) <- names.
+
+point_breakdown[,4] <- paste(point_breakdown[,4]*100,"%",sep = "")
+
+```
+
+
+
+# Meeting times Fall 2019 (Term 2194)
+
+```{marginfigure, echo = TRUE}
+**Instructor**: \newline
+**Nathan L. Brouwer**, PhD \newline
+Office: Crawford Hall \newline
+A351 (the "Bridge") \newline
+Email: nlb24@pitt.edu \newline
+Twitter: @lobrowR \newline
+```
+
+
+## Lecture
+
+1502 Posvar Hall\newline
+Tuesday & Thursday\newline 
+4:00PM - 5:15AM\newline
+BIOSC 1540-1010\newline 
+(17024)\newline
+
+# Office hours
+
+## Instructor office hours
+
+TBD
+
+**Open door policy:** If my door is open, you are welcome to stop by.  If my door is closed, please do not knock.  I am either out of the office or otherwise engaged. Please stop by another time.
+
+# Catalog description
+
+"This course is designed to give students a broad understanding of how computational approaches can be used to solve problems in biology. Both the biological and computational underpinnings of the methods will be addressed."
+
+# Computational Biology Goals
+
+The goals of Computational Biology is to introduce you to key concepts relatd to how computers are used to solve biological problems, and build skills essential to your success working on projects related to computational biology and bioinformatics.
+
+## Concepts
+
+```{marginfigure, echo = TRUE}
+**Key biological themes**:\newline
+1. Genomics \newline
+2. Phylogeny\newline
+3. Homology\newline
+4. Bioinformatics\newline
+5. Scripting in R\newline\
+```
+
+Biology is the study of life in all its forms and at all scales, from the interactions of biomolecues to the functioning of the entire planet. The aim of Computational Biology is to provide you with a solid grounding in the diverse biological questions that can be addressed with computational methods approaches.  At the core of the course will be computational investigations in genomics and phylogenetics; we will also address proteomics, ecology, and evolution.
+
+We will begin the semester with an introduction to broad themes in **computational biology** and a key tool for tackling computationl problems: the **statistical progamming language R**.  We will discuss the types of questions which obligately rely on computational methods (**obligate computational biology**) and how all areas of biology can benefit from adopting computational methods, ways of thinking, and workflows (**facultative computational biology**).  
+
+After getting a broad perspective on computationl biology we will begin using R under how to **align DNA sequences**, identify targets for investigation using **computational gene finding** using **machine learning**, and build **phylogenetic trees** based on the likely **evolutionary homology** between DNA and protein sequences.  Once we have basic understanding of genomics and phylogenetics we will unpack the inner workings of how DNA sequences are aligned, such as **Hidden Markov Models**, and how phylogenies are built using estimates of **genetic distance**, **parsimony algorithms**, and statistical approaches such as **maximum likelihood** and **Bayesian statistics.**  We will also show how these methods are applied in other areas of biology, especially ecology.
+
+In the last third of the semester we will broaden our scope to explore **biological networks**, including **phylogeneic networks**,  **disease transmission networks,** and networks of **ecological interactions**.  We will also apply the concepts of **homology** and phylogenetic trees to the tasks of modeling the secondary and tertirary of macromolecules such as RNA and proteins. 
+
+## Skills
+
+```{marginfigure, echo = TRUE}
+**Key Skills**:\newline
+1. Understanding R code\newline
+2. Data visualization\newline
+3. Graph interpretation\newline
+4. ...\newline
+```
+
+```{r fig-margin, fig.margin = TRUE, fig.cap = "A scatterplot", fig.width=3.5, fig.height=3.5, cache=TRUE, message=FALSE}
+library(ape)
+
+cat("(((Strix_aluco:4.2,Asio_otus:4.2):3.1,",
+"Athene_noctua:7.3):6.3,Tyto_alba:13.5);",
+file = "ex.tre", sep = "\n")
+tree.owls <- read.tree("ex.tre")
+plot(tree.owls)
+unlink("ex.tre") # delete the file "ex.tre"
+
+```
+
+Key to Computational Biology will be developing skills as a critical practioner and consumer of science.  The course will heavily emphasize the application of skills related to scientific programming, including understanding and modifying R code, plotting data, organizing computational workflows, annotating computational projects.  A central set of skill we be learnign to intepret the types of graphs used in computational biology, including alignments, phylogenies, networks, heatmaps, and ordination plots.  The course will also introduce basic skills related to statistics, probablity, and mathematical modeling.  We will also emphasize critical reading and interpretation of the primary literature.
+
+# Assessment methods & Grading policies
+
+```{marginfigure, echo = TRUE}
+**Students will be assesed the following ways**: 
+1. 3 midterm exams\newline
+2. 1 final test which combines 2 exams: 
+a) Exam on materials for the final week(s) of class\newline 
+b)Cumulative exam integrating all course material\newline
+3. Regular homework assignments\newline
+4. Lecture participation & in-class work (eg. via TopHat)\newline
+
+```
+
+
+## General exam policies
+
+1. See the course schedule for dates
+1. The lowest of your 3 regular midterm grades (each worth 15% of final grade) can be replaced by the cumulative portion of the final exam (also worth 15%) if your final grade is higher.
+1. If you miss 1 test for any reason it will be counted zero and replaced by your score on the cumlative final.  If you miss a 2nd test it will recieve a score of 0.
+1. Your score on the unit 4 exam taken during the final cannot be replaced by your final exam score.
+1. No make up tests will be given
+1. No extra credit will be offered on tests
+
+## Exam review policies
+
+1. I will make every effort to have exams graded within 2 weeks
+1. You will be permitted to look over the paper exam and ask questions during recitation. Exams DO NOT leave the room.  Scantrons will not be returned.
+1. I will (generally) cover the most missed questions during the recitation exam review.  
+1. I will not review individual exams during office hours.  I will answer general concept questions.
+1. You may not reproduce any part of the exam in any way while looking at your exam.  No photos, copying of questions, etc.
+1. Any student caught removing an exam or answer key, or reproducing any part of an exam or answer key, will be given a 0 on the exam and charged with an Academic Integrity violation.
+1. If you would like to challenge an exam question, there will be an opportunity to do so.  Otherwise, points are not awarded back unless a grading error occurred.  If a grading error occurred, please see me.
+
+## Final exam policies
+
+
+1. If you have 3 final exams scheduled for the same day, you must speak to me one month BEFORE final exams.
+1. Students missing the **final exam** due to a documented EMERGENCY should contact me ASAP. Oversleeping, travel plans, family vacations, incorrect date, and minor illness are not emergencies.
+
+
+## Homework grade policies
+
+
+```{marginfigure, echo = TRUE}
+Your lowest 2 homework scores will be dropped
+```
+
+
+1. No late assignmetns will be accepted.  Once an assignment closes where it has been posted it will no longer be accepted.
+1. There will be no make up homework assignments given.  
+1. If you miss an assignment it will recieve a 0.  Your 1st 2 missed assignments will be dropped.  Any additional missed assignments will recieve a 0.
+
+
+
+
+## In class partcipation grade policies
+
+1. Your 5 lowest class participation scores will be replaced by the mode (most common score) of your other class participation scores.
+1. If you are caught answering in-class TopHat questions outside of class, you will receive a 0 for all TopHat related activities for the semester.
+1. If you are caught answering TopHat questions for another student, or assisting a student outside the classroom with TopHat, both of you will receive a 0 for all TopHat related activities for the semester.
+
+
+## Extra credit policies
+
+1. No extra credit will be offered in this course.
+
+## Point allocation
+
+
+```{r fig.margin = TRUE, fig.cap = "", fig.width=3.5, fig.height=3.5, cache=TRUE, message=FALSE}
+library(ggpubr)
+point_breakdown$`% of final grade` <- gsub("%","",point_breakdown$`% of final grade`)
+point_breakdown$`% of final grade` <- as.numeric(point_breakdown$`% of final grade`)
+names(point_breakdown)[4] <- "percent"
+#names(point_breakdown)[2] <- "Item"
+point_breakdown$label <- ""
+ggpie(data = point_breakdown,
+      x = "percent",
+      label = "Item",
+      fill = "Item")
+```
+
+```{r, eval = T, echo = F}
+knitr::kable(point_breakdown[, -ncol(point_breakdown)])
+```
+
+
+Notes: 
+
+1. "*" = the value in the "Number" column is an approximation.  Final numbers of assignments to be determined.
+1. Each midterm covers ~7 lectures
+1. The Unit 4 exam given along with final
+1. The Unit 4 exam will cover lectures which occur between the 3rd midterm and the final.
+1. If higher, your final exam can replace your lowest midterm from units 1-3
+1. There will be no extra credit offered.
+
+
+## Grade scale
+
+```{marginfigure, echo = TRUE}
+Note: Students planning to major in Computational Biology must pass this course with a C (not C- !) or better.
+```
+
+
+```{r, eval = T, echo = F}
+knitr::kable(grade_scale)
+```
+
+# Required Course Materials
+
+## Textbook
+
+## Software for Computational Biology:
+
+**Box.com:** www.technology.pitt.edu/services/cloud-collaboration-box-and-onedrive
+**R:**  R Core Team (2019). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. www.R-project.org/.
+**RStudio:** www.rstudio.com/products/rstudio/download/#download  
+**RStudio cloud:** https://rstudio.cloud/ 
+**GitHub:** https://github.com/ 
+
+Zotero?
+
+Slack?
+
+If you have trouble with R or RStudio see the first section of this chapter:
+Getting started with R: https://learningstatisticswithr.com/book/introR.html
+
+
+## Books for computational biology
+
+**Wiley, EO and BS Liberman.  2011.  Phylogenetics: Theory and Practice of Phylogenetic Systematics.  2nd ed.**
+Available **FREE** via the Pitt library, though you can only download a few chapters at a time.  I do **NOT** recommend buying a hard copy because I am currently only planning on using a few chapters.  If you want a hard copy and buy it used be sure to get the 2nd edition.
+
+Focal chapters in Wiley and Liberman (2011):
+Chapter 4: Tree graphs
+Chapter 5: Characters & homology
+Chapter 6: Parsimony & parsimony analysis
+Chapter 7: Parametric phylogenetics
+
+
+
+**Pevsner 2015.  Bioinformatics and functional genomics. 3rd edition.**  
+Available **FREE** via the Pitt library, though you can only download a few chapters at a time.  I do **NOT** recommend buying a hard copy because I am currently only planning on using the first 1/3 of the book.  If you want a hard copy and buy it used be sure to get the 3rd edition.
+
+**Coglan, A.  n.d.  A little book of R for bioinformatics.**
+Adapated as an R package: xxxxxx
+https://a-little-book-of-r-for-bioinformatics.readthedocs.io/en/latest/ 
+
+Focal Chapters in Coglan (n.d.):
+Chapter 1: Introduction
+CHapter 2: Access to information
+Chapter 3: Pairwise alignment
+Chapter 4: BLAST
+Chapter 5: Advanced BLAST
+Chapter 6: Multiple sequence alignment
+Chapter 7: Molecular Phylogeny and Evolution
+Chapter 12: Proteomics
+Chapter 13: Protein structure
+
+**Navarro, D. 2019.  Learning Statistics with R**
+PDF: https://learningstatisticswithr.com/lsr-0.6.pdf
+HTML: https://learningstatisticswithr.com/book/ 
+
+Focal chaptersin Navarro:
+["Getting started with R"](https://learningstatisticswithr.com/book/introR.html)
+["Additional R concepts"](https://learningstatisticswithr.com/book/mechanics.html)
+["Descriptive statistics"](https://learningstatisticswithr.com/book/descriptives.html)
+["Pragmatic matters"](https://learningstatisticswithr.com/book/datahandling.html)
+["Drawing graphs"](https://learningstatisticswithr.com/book/graphics.html#hist)
+["Basic programming"](https://learningstatisticswithr.com/book/scripting.html)
+["Introduction to probability"](https://learningstatisticswithr.com/book/probability.html)
+
+
+This course will be structured around focal chapters in Sadava et al. (2016).  Assigned readings should be done before each related lecture.  A copy of the textbook is on reserve at the Langley Library. If you buy from the bookstore, you will receive the best value.  The bundle comes with online access to videos, animations, and practice questions.  They are NOT required for class but could be beneficial.
+
+
+## Peer-reviewed literature
+
+Nascimente, FF et al.  2017.  A biologist's guide to Bayesian phylogenetic analysis.  Nature Ecology & Evolution.  See GitHub repo and blog posts.
+
+
+## Additional references
+
+### Reference Books
+
+Cadotte & Davies.  Phylogenies in ecology: A guide to concepts and methods.
+Free from library.  Covers the use of phylogenies in community ecology and trait evolution. 
+
+Nei and Kumar.  Molecular evolution and phylogenetics.
+Free from library. Contains more mathematical treatments of maximum likelihood etc.
+
+### Reference articles, blogs etc
+
+Altman.  2009.  [Bioinformatics & computational biology = Same?  No.](https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/) ttps://rbaltman.wordpress.com  
+
+Gregory 2008.  Understanding evolutionary trees.  Evo Edu Outreach 1:121-137.
+
+Koonin.  2001.  Computational genomics.  Current Biology 11:R155-R158.
+
+Loman and Watson.  2013.  So you want to be a computational biologist?  Nature Biotech.
+
+Markowetz, F.  2017.  All biology is computational biology.  PLoS Biology.
+
+Nussinov et al.  2015.  From "What is?" to "What isn't?" computaitonal biology.  PLoS Computational Biology.
+
+Visser et al 2015.  Speeding up ecological and evolutionary computations in R: Essential of high performanc computing for biologists.  PLoS Computational Biology.
+
+
+
+
+## In-class response / Homework system
+
+```{marginfigure, echo = TRUE}
+**TopHat**\newline
+Join Code: **xxxxx**\newline
+www.tophat.com\newline
+```
+
+We will use TopHat in-class and for homework.  Please bring a charged TopHat compatible device to all lectures and recitations.  See the **Course Policies** section for information related to if you are not able to answer TopHat questions during class due to technical difficulties.  
+
+
+```{marginfigure, echo = TRUE}
+Mueller, PA & DM Oppenheimer.  2014.  The pen is mightier than the keyboard: Advantages of longhand over laptop note taking.  Psych Sci.\newline
+Cepeda et al.  2014.  Laptop multitasking hinders classroom learning for both users & nearby peers.  Comp & Ed.
+```
+
+It is your responsibility to use your devices responsiblity.  There is extensive evidence that hand writing notes is far more effective for learning than typing notes (Mueller & Oppenheimer 2014, Cepeda et al 2014).  If you device use is disruptive to the class you will recieve a warning.  A 2nd violation will result in the loss of TopHat points for the class.  If a 3rd violation occurs no longer permitted to use a device in class and you will recieve a zero for all remaining in-class TopHat points since you will no longer be able to use a device in-class.
+
+## Computers in class
+
+If possible I’d like everyone to bring a laptop on the first day of class loaded with the software for the class.  If access to a laptop is in any way a problem, let me know so we can chat.  Also, if you have any problems loading the software listed below let me know.
+
+
+# Types of assignments
+
+## Tests
+
+### Midterm exam
+
+There will be XXX midterm exams.
+
+### Final exam
+
+There will be a full length final exam held at the schedule time.  If you have scheduling conflicts please contact the registrar.
+
+## Class participation
+
+### In-class worksheets 
+
+Occassionaly you will be asked to complete a short worksheet or draw an example of a diagram in-class related to a lecture or discussion. These will be collected and graded for participation similar to TopHat participation questions.
+
+### TopHat participation questions
+
+I will regularly use TopHat to ask short questions (eg, multiple choice) to assess your understanding or survey the class.  To account for malfunctioning devices etc you will recieve full credit if you answer at least 75% of the question for a session.  Additionally, you will be able to drop you two lowest TopHat participation scores, for example if you are absent.
+
+### Forced participation questions
+
+During lectures and discussions I will randomly select students to answer my question or engage in a conversation with me.  Selection will be random, without replacement, until everyone has participated, then will begin again. If you are not present I will skip you.  If you are present we will engage in a discussion, and you are free to say "I don't know" to any question I ask.  I will then follow up. You will not be graded on the quality of your response, but rather on your participation and willingness to engage in discussion.  I assume everyone will get full credit on this.
+
+## Software check points (SCPs)
+
+We will use several types of software during this class and it is imperative that you have downloaded, installed, and checked the software prior to classes or the beginning of assignments.  To make sure this happens you will generally be required to submit a selfie of yourself in front of your computer with the software open.  These files will be submitted, with the correct file name, to a designated shared folder.
+
+
+## In-class assignments
+
+Worksheets, TopHat assignments
+Begun in class, due latter.===
+
+## Out-of class assignments
+
+### Reading assignments and quizes
+
+### Online tutorial completion
+
+Tyically worksheets
+
+## Mini-projects
+
+Sub-components of mini-projects will be assigned and graded as in-class assignments or out-of-class assignments.
+
+## Team project
+
+
+Sub-components of mini-projects will be assigned and graded as in-class assignments or out-of-class assignments.
+
+
+
+
+
+
+
+
+# Course Policies
+
+## Changes to course schedule & syllabus
+
+The instructor reserves the right to alter the syllabus and the course schedule as necessary.  If changes occur, they will be clearly communicated in class and a revised syllabus and course schedule will be provided.
+
+## Email Policy
+
+```{marginfigure, echo = TRUE}
+Put "Foundations 2" as the 1st thing in your email subejct line.
+```
+
+Email communications
+Also, I typically carve up my communications into bite size packages so you can delete them when you've digested the message or taken care of any tasks.  Hence, this is "Email 1" and "Email 2" will follow with info on another topic.
+
+
+
+1. **Email will be an important form of communication in this course**.  Please check your email regularly.  If you use another email service as your primary email (eg GMail) please set your Pitt email to forward there.
+1. **I try to answer all emails recieved on weekdays within 24.**  Emails recieved on the weekend will be answered on Monday morning.  
+1. **Please put "Foundations 2:..." as the subject**, with an informative bit of information as the "...".  Eg "Foundations 2: problem accessing TopHat"
+1. **Please consult the syllabus before asking questions about course policies and the schedule**, and refer to relevant information such as pages or dates.  Screen grabs are super helpful.  If the entire answer to your question can be found in the syllabus I will likely respond by saying "This is in the syllabus, Cheers, Dr. B."
+
+
+## File names for homework
+
+All files submitted for homework need to strictly adhere to this format:
+
+lastname_initials_pittemail_assignmenttitle
+
+for example:
+
+"Brouwer_NL_nlb24_assign_1.rmd"
+
+Any assignment submitted with an incorrect file name will recieve zero points and not be graded. If the file name is corrected the assignment will be graded but have 20% of the total points deducted.
+
+## Mental Health
+
+```{marginfigure, echo = TRUE}
+**Health Resources** \newline
+University Counseling Center: \newline
+412-648-7930\newline
+Sexual Assault Response: \newline
+412-648-7856\newline
+RE:SOLVE crisis network:\newline
+888-796-8226\newline
+Pitt Police: \newline
+412-624-2121\newline
+```
+
+Diminished mental health, including significant stress, mood changes, excessive anxiety, or problems with sleeping, can interfere with your academic performance.  You have a support network to help you through these challenging times. Acknowledging that you need help, and getting that help, is smart and courageous.
+
+
+* If you are in an EMERGENCY situation, call 911 or Pitt Police at 412-624-2121.
+* If your symptoms are due to FINANCIAL strain, please visit pitt.libguides.com/assistanceresources to see all available University resources.
+* If your symptoms are due to strained RELATIONSHIPS, families, or personal crises, please visit the University Counseling Center at www.studentaffairs.pitt.edu/cc/ for free confidential services.
+* If your symptoms are strictly related to your COURSE WORK and performance in this course, please contact me.
+
+
+
+
+## Disability Resources & Services
+
+```{marginfigure, echo = TRUE}
+Disabilities Resources and Services\newline
+216 William Pitt Union\newline
+(412) 648-7890\newline
+(412) 383-7355 (TYY)
+```
+
+If you have a disability for which you are or may be requesting an accommodation, you are encouraged to contact both your instructor and Disabilities Resources and Services, 216 William Pitt Union, (412) 648-7890/(412) 383-7355 (TYY), as early as possible in the term.  DRS will verify your disability and determine reasonable accommodations for this course.
+
+## E-mail Communication
+
+```{marginfigure, echo = TRUE}
+Email communication will be important in this class.\newline  
+For information on forwarding your Pitt email to your personal email acctoun see:\newline
+https://bit.ly/2Riz7dx
+```
+
+Each student is issued a University e-mail address (username@pitt.edu) upon admittance. This e-mail address may be used by the University for official communication with students. Students are expected to read e-mail sent to this account on a regular basis. Failure to read and react to University communications in a timely manner does not absolve the student from knowing and complying with the content of the communications. The University provides an e-mail forwarding service that allows students to read their e-mail via other service providers (e.g., Hotmail, AOL, Yahoo). Students that choose to forward their e-mail from their pitt.edu address to another address do so at their own risk. If e-mail is lost as a result of forwarding, it does not absolve the student from responding to official communications sent to their University e-mail address. To forward e-mail sent to your University account, go to http://accounts.pitt.edu, log into your account, click on Edit Forwarding Addresses, and follow the instructions on the page. Be sure to log out of your account when you have finished. (For the full E-mail Communication Policy, go to www.bc.pitt.edu/policies/policy/09/09-10-01.html.)
+
+## Academic integrity
+
+```{marginfigure, echo = TRUE}
+Dr. Brouwer, the Bio Sci department, and the University all take academic integrity very seriously.
+```
+
+
+1.	If you are caught cheating on a graded assignment, you will (AT MINIMUM) receive a 0 on the assignment. 
+1.	If you are caught cheating on an exam, you will receive a 0 on the exam, an F in the course, and an Academic Integrity Violation Report will be filed.
+1.	Use of unauthorized material during an exam or quiz, including notes, dictionaries, calculators, telephones, smart watches/devices, or any material that would give you an unfair advantage over other students in the class, are forbidden.
+1.	Materials made available to you in this class are my intellectual property.  They are for your private use only. Posting or sharing my materials (lecture notes, slides, quizzes, homework, exams, recitation assignments, etc) to any website or with any student not currently enrolled in this course, without my express written permission, is a violation of the academic integrity code.
+
+Below is the University’s Policy on Academic Integrity:
+
+>"Students in this course are expected to comply with the University of Pittsburgh School of Arts & Sciences Academic Integrity Code located at www.as.pitt.edu/faculty/policy/integrity.html.  Any student suspected of failing to meet the student obligations of the code during the semester will be required to participate in the procedures for adjudication, initiated at the instructor level.  This may include, but is not limited to, confiscation of the assignment of any individual suspected of violating the code.  A minimum sanction of a zero score for the assignment will be imposed.  Violation of the Academic Integrity Code requires the instructor to submit an Academic Integrity Violation Report to the Dean.
+
+## Natural Science General Education Requirement
+
+This course fulfills one Dietrich School of Arts and Sciences Natural Science General Education Requirement (GER) as described for the GERs starting Fall 2018 (term 2191). That GER reads as follows:
+
+Three Courses in the Natural Sciences
+
+These will be courses that introduce students to scientific principles and concepts rather than offering a simple codification of facts in a discipline or a history of a discipline. The courses may be interdisciplinary, and no more than two courses may have the same primary departmental sponsor.
+
+
+Appendix: So you want to go to graduate school?
+O’Connel, Tim.  @Seiurus  “A conversation about grad school” “https://eatmorecookies.wordpress.com/2018/07/17/a-conversation-about-grad-school/
+
+Carson, W.P. 1999. A primer on how to apply and get admitted to graduate school in ecology and evolutionary biology. Bulletin of the Ecological Society of America 80(4):246-250. (PDF here: https://sites.google.com/site/walterpagecarson/publications)
+
+Approaching a PI - A guide for undergraduates https://thefemalescientist.com/guide/madeleine-hann/2053/approaching-a-pi-a-guide-for-undergraduates-in-stem/
+
+Stearns, S.  Some modest advices for graduate students
+Bulletin of the Ecological Society of America, 1987 - JSTOR
+https://stearnslab.yale.edu/some-modest-advice-graduate-students
+
+Huey.  REPLY TO STEARNS: SOME ACYNICAL ADVICE FOR GRADUATE STUDENTS
+https://faculty.washington.edu/hueyrb/pdfs/reply.pdf
+
+THoughts on Stearns and Huey 
+Fox, J. 2015.  @dynamicecology.  Re-reading Stearns and Hueys some modest advice to gradaute students.
+https://dynamicecology.wordpress.com/2015/09/08/rereading-stearns-and-hueys-some-modest-advice-to-graduate-students/
+
+Some advice for graduate advisors
+D Binkley - Bulletin of the Ecological Society of America, 1988
+
+
+Suggestions for new and aspiring graduate students in wildlife science RA Fischer, SL King - Wildlife Society Bulletin, 1998 
+
+A comparison of stipends, health insurance, and tuition remission policies at fisheries and wildlife graduate programs throughout the United States
+LD Schultz, JA VanDeHey - Fisheries, 2012
+
+Insights for undergraduates seeking an advanced degree in wildlife and fisheries sciences
+MA Kaemingk, DJ Dembkowski, HA Meyer, LM Gigliotti - Fisheries, 2013 -
+
+Publishing papers while keeping everything in balance: Practical advice for a productive graduate school experience
+S Hotaling - Ideas in Ecology and Evolution, 2018 
+
+On the publishing process: a tweet by @dsquintana
+https://twitter.com/dsquintana/status/1154820610750595072?s=20
+
+## Appendix: Shortcuts in R
+
+Programmers are often obsseed with using keyboard shortcuts.  You'll see me use some, and you might want to learn them.
+
+The package of this cheatsheet is a 1-page summary of shortcuts
+https://www.rstudio.com/resources/cheatsheets/#ide
+
+Another summary sheet of Shortcuts in RStudio is here:
+https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
+
+A great blog post on shortcuts is here
+https://appsilon.com/r-studio-shortcuts-and-tips/
+
+## Appendix: Regular expressions
+
+The RStudio cheatsheet for regular expressions can be found here
+https://github.com/rstudio/cheatsheets/raw/master/regex.pdf
+
+## Data structures in R
+
+www.datasciencecentral.com/profiles/blogs/understand-basic-to-advance-data-structure-used-in-r-to-use-it
+
+## Appendix: Twitter accounts to follow
+
+@justsaysinmice,
+@justsaysinrats,
+@justsaysrisks,
+@OnlyInMen
+

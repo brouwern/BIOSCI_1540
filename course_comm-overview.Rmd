@@ -1,0 +1,16 @@
+# Course communication - Overview
+
+## Primary modes of communication
+
+All important details will be sent via Canavas message and mentioned/discussed in class.  It is your responsiblity to regularly check Canvas messages to stay abreast of the course.  
+
+## Secondary modes of communication
+
+### Github "issues"
+
+In this class we will be making extensive use of the code management site GitHub.  Most communcation about homework and other assignments will occur via GitHubs Issues feature.  Moreover, to foster discussion we will use GitHub issues to create forums around assignments and you will be required to submit comments.
+
+### Microsoft Share Point
+
+Files containing code for this course will be distributed using MicroSoft Sharepoint.  Sharepoint has messaging features which I may experitment but will not rely on.  
+

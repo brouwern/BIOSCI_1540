@@ -1,0 +1,3 @@
+# Catalog description
+
+> "This course is designed to give students a broad understanding of how computational approaches can be used to solve problems in biology. Both the biological and computational underpinnings of the methods will be addressed."

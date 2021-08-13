@@ -1,0 +1,14 @@
+# Shortcuts in R
+
+Programmers are often obsessed with using keyboard shortcuts.  You'll see me use some, and you might want to learn them. 
+
+
+
+The back of this cheatsheet is a 1-page summary of shortcuts 
+https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf
+
+Another summary sheet of Shortcuts in RStudio is here:
+https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
+
+A great blog post on shortcuts is here
+https://appsilon.com/r-studio-shortcuts-and-tips/
