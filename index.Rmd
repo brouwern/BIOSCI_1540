@@ -4,7 +4,7 @@ author: "Nathan L. Brouwer"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+# bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Syllabus and resources for BioSci 1540: Computational Biology, at the University of Pittsburgh."

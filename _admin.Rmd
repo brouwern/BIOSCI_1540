@@ -5,6 +5,8 @@ editor_options:
 ---
 # Admin
 
+## Make and connect to git
+ 
 JB: https://happygitwithr.com/existing-github-last.html
 
 https://github.com/brouwern/BIOSCI_1540.git
@@ -12,3 +14,15 @@ https://github.com/brouwern/BIOSCI_1540.git
 usethis::use_git()
 ```
 
+git remote add origin https://github.com/brouwern/BIOSCI_1540.git
+git push --set-upstream origin master
+
+
+## Set up to build book and host on git
+
+touch .nojekyll
+
+git add .nojekyll
+
+
+/docs by adding the line output_dir: "docs" to the configuration file _bookdown.yml

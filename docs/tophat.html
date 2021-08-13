@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 26 TopHat | BioSci 1540: Computational Biology</title>
+  <meta name="description" content="Syllabus and resources for BioSci 1540: Computational Biology, at the University of Pittsburgh." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 26 TopHat | BioSci 1540: Computational Biology" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Syllabus and resources for BioSci 1540: Computational Biology, at the University of Pittsburgh." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 26 TopHat | BioSci 1540: Computational Biology" />
+  
+  <meta name="twitter:description" content="Syllabus and resources for BioSci 1540: Computational Biology, at the University of Pittsburgh." />
+  
+
+<meta name="author" content="Nathan L. Brouwer" />
+
+
+<meta name="date" content="2021-08-13" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="skills.html"/>
+<link rel="next" href="updates-to-schedule-syllabus.html"/>
+<script src="libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">BioSci 1540 Syllabus</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
+<li class="chapter" data-level="2" data-path="course-outline.html"><a href="course-outline.html"><i class="fa fa-check"></i><b>2</b> Course outline</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="course-outline.html"><a href="course-outline.html#unit1-1-getting-started"><i class="fa fa-check"></i><b>2.1</b> UNIT1 1: Getting started</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="course-outline.html"><a href="course-outline.html#week-1-hello-computational-biology"><i class="fa fa-check"></i><b>2.1.1</b> Week 1: Hello Computational Biology!</a></li>
+<li class="chapter" data-level="2.1.2" data-path="course-outline.html"><a href="course-outline.html#week-2-r-camp"><i class="fa fa-check"></i><b>2.1.2</b> Week 2: R Camp</a></li>
+<li class="chapter" data-level="2.1.3" data-path="course-outline.html"><a href="course-outline.html#week-3-stats-camp"><i class="fa fa-check"></i><b>2.1.3</b> Week 3: Stats Camp</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="course-outline.html"><a href="course-outline.html#unti-2-computational-ecology"><i class="fa fa-check"></i><b>2.2</b> UNTI 2: Computational Ecology</a></li>
+<li class="chapter" data-level="2.3" data-path="course-outline.html"><a href="course-outline.html#unit-3-phylogenetics-bioinformatics"><i class="fa fa-check"></i><b>2.3</b> UNIT 3: Phylogenetics &amp; Bioinformatics</a></li>
+<li class="chapter" data-level="2.4" data-path="course-outline.html"><a href="course-outline.html#unit-4-bioinformatics-2---sequence-alignment-and-blast-searches"><i class="fa fa-check"></i><b>2.4</b> UNIT 4: Bioinformatics 2 - Sequence Alignment and BLAST searches</a></li>
+<li class="chapter" data-level="2.5" data-path="course-outline.html"><a href="course-outline.html#unit-5-bioinformatics-3---algorithms-and-statistics-of-blast"><i class="fa fa-check"></i><b>2.5</b> Unit 5: Bioinformatics 3 - Algorithms and statistics of BLAST</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>3</b> Introduction</a></li>
+<li class="chapter" data-level="4" data-path="meeting-times.html"><a href="meeting-times.html"><i class="fa fa-check"></i><b>4</b> Meeting times</a></li>
+<li class="chapter" data-level="5" data-path="instructor.html"><a href="instructor.html"><i class="fa fa-check"></i><b>5</b> Instructor</a></li>
+<li class="chapter" data-level="6" data-path="academic-integrity.html"><a href="academic-integrity.html"><i class="fa fa-check"></i><b>6</b> Academic integrity</a></li>
+<li class="chapter" data-level="7" data-path="assessments-homework-policies.html"><a href="assessments-homework-policies.html"><i class="fa fa-check"></i><b>7</b> Assessments - Homework policies</a></li>
+<li class="chapter" data-level="8" data-path="assessments.html"><a href="assessments.html"><i class="fa fa-check"></i><b>8</b> Assessments Overview</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="assessments.html"><a href="assessments.html#online-test-taking-policies"><i class="fa fa-check"></i><b>8.1</b> Online Test-taking policies</a></li>
+<li class="chapter" data-level="8.2" data-path="assessments.html"><a href="assessments.html#final-exam-policies"><i class="fa fa-check"></i><b>8.2</b> Final Exam Policies</a></li>
+<li class="chapter" data-level="8.3" data-path="assessments.html"><a href="assessments.html#assessments-1"><i class="fa fa-check"></i><b>8.3</b> Assessments</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="communication-university-email-policy.html"><a href="communication-university-email-policy.html"><i class="fa fa-check"></i><b>9</b> Communication - University email policy</a></li>
+<li class="chapter" data-level="10" data-path="email-and-canvas-msg.html"><a href="email-and-canvas-msg.html"><i class="fa fa-check"></i><b>10</b> Course communication - Email and Canvas Messages</a></li>
+<li class="chapter" data-level="11" data-path="course-communication-overview.html"><a href="course-communication-overview.html"><i class="fa fa-check"></i><b>11</b> Course communication - Overview</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="course-communication-overview.html"><a href="course-communication-overview.html#primary-modes-of-communication"><i class="fa fa-check"></i><b>11.1</b> Primary modes of communication</a></li>
+<li class="chapter" data-level="11.2" data-path="course-communication-overview.html"><a href="course-communication-overview.html#secondary-modes-of-communication"><i class="fa fa-check"></i><b>11.2</b> Secondary modes of communication</a>
+<ul>
+<li class="chapter" data-level="11.2.1" data-path="course-communication-overview.html"><a href="course-communication-overview.html#github-issues"><i class="fa fa-check"></i><b>11.2.1</b> Github “issues”</a></li>
+<li class="chapter" data-level="11.2.2" data-path="course-communication-overview.html"><a href="course-communication-overview.html#microsoft-share-point"><i class="fa fa-check"></i><b>11.2.2</b> Microsoft Share Point</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="catalog-description.html"><a href="catalog-description.html"><i class="fa fa-check"></i><b>12</b> Catalog description</a></li>
+<li class="chapter" data-level="13" data-path="course-materials-overview.html"><a href="course-materials-overview.html"><i class="fa fa-check"></i><b>13</b> Course materials overview</a></li>
+<li class="chapter" data-level="14" data-path="course-materials-software.html"><a href="course-materials-software.html"><i class="fa fa-check"></i><b>14</b> Course materials - Software</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="course-materials-software.html"><a href="course-materials-software.html#primary-software"><i class="fa fa-check"></i><b>14.1</b> Primary software</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="course-materials-software.html"><a href="course-materials-software.html#programming-environment-r"><i class="fa fa-check"></i><b>14.1.1</b> Programming environment: R</a></li>
+<li class="chapter" data-level="14.1.2" data-path="course-materials-software.html"><a href="course-materials-software.html#integrated-developement-environment"><i class="fa fa-check"></i><b>14.1.2</b> Integrated developement environment</a></li>
+<li class="chapter" data-level="14.1.3" data-path="course-materials-software.html"><a href="course-materials-software.html#cloud-based-r"><i class="fa fa-check"></i><b>14.1.3</b> Cloud-based R</a></li>
+</ul></li>
+<li class="chapter" data-level="14.2" data-path="course-materials-software.html"><a href="course-materials-software.html#code-sharing"><i class="fa fa-check"></i><b>14.2</b> Code sharing</a>
+<ul>
+<li class="chapter" data-level="14.2.1" data-path="course-materials-software.html"><a href="course-materials-software.html#microsoft-sharepoint"><i class="fa fa-check"></i><b>14.2.1</b> Microsoft SharePoint</a></li>
+<li class="chapter" data-level="14.2.2" data-path="course-materials-software.html"><a href="course-materials-software.html#github"><i class="fa fa-check"></i><b>14.2.2</b> GitHub</a></li>
+</ul></li>
+<li class="chapter" data-level="14.3" data-path="course-materials-software.html"><a href="course-materials-software.html#r-packages"><i class="fa fa-check"></i><b>14.3</b> R packages</a>
+<ul>
+<li class="chapter" data-level="14.3.1" data-path="course-materials-software.html"><a href="course-materials-software.html#swirl"><i class="fa fa-check"></i><b>14.3.1</b> swirl</a></li>
+<li class="chapter" data-level="14.3.2" data-path="course-materials-software.html"><a href="course-materials-software.html#bioconductor"><i class="fa fa-check"></i><b>14.3.2</b> Bioconductor</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="bibliography.html"><a href="bibliography.html"><i class="fa fa-check"></i><b>15</b> Bibliography</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="bibliography.html"><a href="bibliography.html#bioinformatics-computational-biology"><i class="fa fa-check"></i><b>15.1</b> Bioinformatics &amp; computational biology</a></li>
+<li class="chapter" data-level="15.2" data-path="bibliography.html"><a href="bibliography.html#phylogenetics"><i class="fa fa-check"></i><b>15.2</b> Phylogenetics</a></li>
+<li class="chapter" data-level="15.3" data-path="bibliography.html"><a href="bibliography.html#statistics"><i class="fa fa-check"></i><b>15.3</b> Statistics</a></li>
+<li class="chapter" data-level="15.4" data-path="bibliography.html"><a href="bibliography.html#reference-books"><i class="fa fa-check"></i><b>15.4</b> Reference Books</a></li>
+<li class="chapter" data-level="15.5" data-path="bibliography.html"><a href="bibliography.html#reference-articles-blogs-etc"><i class="fa fa-check"></i><b>15.5</b> Reference articles, blogs etc</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="DRS.html"><a href="DRS.html"><i class="fa fa-check"></i><b>16</b> Disability Resource &amp; Services</a></li>
+<li class="chapter" data-level="17" data-path="extracredit.html"><a href="extracredit.html"><i class="fa fa-check"></i><b>17</b> Extra credit policies</a></li>
+<li class="chapter" data-level="18" data-path="file-names.html"><a href="file-names.html"><i class="fa fa-check"></i><b>18</b> File names for homework</a>
+<ul>
+<li class="chapter" data-level="18.1" data-path="file-names.html"><a href="file-names.html#course-goals"><i class="fa fa-check"></i><b>18.1</b> Course Goals</a></li>
+</ul></li>
+<li class="chapter" data-level="19" data-path="grading-scale.html"><a href="grading-scale.html"><i class="fa fa-check"></i><b>19</b> Grading scale</a></li>
+<li class="chapter" data-level="20" data-path="meeting-times-1.html"><a href="meeting-times-1.html"><i class="fa fa-check"></i><b>20</b> Meeting times</a></li>
+<li class="chapter" data-level="21" data-path="metnal-health-wellness.html"><a href="metnal-health-wellness.html"><i class="fa fa-check"></i><b>21</b> Metnal health &amp; wellness</a>
+<ul>
+<li class="chapter" data-level="21.1" data-path="metnal-health-wellness.html"><a href="metnal-health-wellness.html#resources"><i class="fa fa-check"></i><b>21.1</b> Resources:</a></li>
+</ul></li>
+<li class="chapter" data-level="22" data-path="office-hours.html"><a href="office-hours.html"><i class="fa fa-check"></i><b>22</b> Office hours</a>
+<ul>
+<li class="chapter" data-level="22.1" data-path="office-hours.html"><a href="office-hours.html#instructor-office-hours"><i class="fa fa-check"></i><b>22.1</b> INSTRUCTOR OFFICE HOURS</a></li>
+<li class="chapter" data-level="22.2" data-path="office-hours.html"><a href="office-hours.html#uta-office-hours"><i class="fa fa-check"></i><b>22.2</b> UTA OFFICE HOURS</a></li>
+</ul></li>
+<li class="chapter" data-level="23" data-path="points.html"><a href="points.html"><i class="fa fa-check"></i><b>23</b> Point breakdown</a></li>
+<li class="chapter" data-level="24" data-path="semester-schedule.html"><a href="semester-schedule.html"><i class="fa fa-check"></i><b>24</b> Semester schedule</a></li>
+<li class="chapter" data-level="25" data-path="skills.html"><a href="skills.html"><i class="fa fa-check"></i><b>25</b> Skills</a></li>
+<li class="chapter" data-level="26" data-path="tophat.html"><a href="tophat.html"><i class="fa fa-check"></i><b>26</b> TopHat</a>
+<ul>
+<li class="chapter" data-level="26.1" data-path="tophat.html"><a href="tophat.html#in-class-response-homework-system"><i class="fa fa-check"></i><b>26.1</b> In-class response / Homework system</a></li>
+</ul></li>
+<li class="chapter" data-level="27" data-path="updates-to-schedule-syllabus.html"><a href="updates-to-schedule-syllabus.html"><i class="fa fa-check"></i><b>27</b> Updates to schedule &amp; syllabus</a></li>
+<li class="chapter" data-level="28" data-path="appendix-graduate-school.html"><a href="appendix-graduate-school.html"><i class="fa fa-check"></i><b>28</b> Appendix: graduate school</a></li>
+<li class="chapter" data-level="29" data-path="cheat-sheets.html"><a href="cheat-sheets.html"><i class="fa fa-check"></i><b>29</b> Cheat sheets</a></li>
+<li class="chapter" data-level="30" data-path="appendix-getting-involved-in-computational-research.html"><a href="appendix-getting-involved-in-computational-research.html"><i class="fa fa-check"></i><b>30</b> Appendix: Getting involved in (computational) research</a></li>
+<li class="chapter" data-level="31" data-path="shortcuts-in-r.html"><a href="shortcuts-in-r.html"><i class="fa fa-check"></i><b>31</b> Shortcuts in R</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BioSci 1540: Computational Biology</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="tophat" class="section level1" number="26">
+<h1><span class="header-section-number">Chapter 26</span> TopHat</h1>
+<div id="in-class-response-homework-system" class="section level2" number="26.1">
+<h2><span class="header-section-number">26.1</span> In-class response / Homework system</h2>
+<p>We will use TopHat in-class and for homework. Please bring a charged TopHat compatible device to all lectures and recitations. See the <strong>Course Policies</strong> section for information related to if you are not able to answer TopHat questions during class due to technical difficulties.</p>
+<p><a href="www.tophat.com"><strong>TopHat</strong></a><br />
+Join Code: <strong>209015</strong><br />
+www.tophat.com</p>
+<p>When logging into TopHat it will ask you for your university. Typing in “University of Pittsburgh” brings up 3 options: <strong>select the first one</strong> that just says “University of Pittsburgh.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="skills.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="updates-to-schedule-syllabus.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["1540_syllabus.pdf", "1540_syllabus.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

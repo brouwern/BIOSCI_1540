@@ -1,25 +1,25 @@
 # Grading scale
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(tufte)
-library(readxl)
-library(knitr)
-
-#Load grade scale
-grade_scale <- read.csv("grade_scale.csv")
-
-#Load points breakdown
-point_breakdown <- readxl::read_excel("points_breakdown.xlsx", sheet = "spring2019")
-
-#clean points breakdown
-names. <- names(point_breakdown)
-point_breakdown$Category[is.na(point_breakdown$Category)] <- ""
-point_breakdown <- data.frame(point_breakdown)
-names(point_breakdown) <- names.
-
-point_breakdown[,4] <- paste(point_breakdown[,4]*100,"%",sep = "")
+```{r lodgradscale, include=FALSE}
+# knitr::opts_chunk$set(echo = FALSE)
+# 
+# library(readxl)
+# library(knitr)
+# 
+# #Load grade scale
+# grade_scale <- read.csv("grade_scale.csv")
+# 
+# #Load points breakdown
+# point_breakdown <- readxl::read_excel("points_breakdown.xlsx", sheet = "spring2019")
+# 
+# #clean points breakdown
+# names. <- names(point_breakdown)
+# point_breakdown$Category[is.na(point_breakdown$Category)] <- ""
+# point_breakdown <- data.frame(point_breakdown)
+# names(point_breakdown) <- names.
+# 
+# point_breakdown[,4] <- paste(point_breakdown[,4]*100,"%",sep = "")
 
 ```
 
