@@ -1,4 +1,4 @@
-## File names for homework
+## File names for homework {#file_names}
 
 All files your create which get submitted for homework need to be in lower case and **strictly** adhere to this format:
 

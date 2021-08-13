@@ -3,9 +3,10 @@
 ## In-class response / Homework system
 
 
-**TopHat**  
-Join Code: **xxxxx**  
+We will use TopHat in-class and for homework.  Please bring a charged TopHat compatible device to all lectures and recitations.  See the **Course Policies** section for information related to if you are not able to answer TopHat questions during class due to technical difficulties.  
+
+[**TopHat**](www.tophat.com)  
+Join Code: **209015**  
 www.tophat.com  
 
-
-We will use TopHat in-class and for homework.  Please bring a charged TopHat compatible device to all lectures and recitations.  See the **Course Policies** section for information related to if you are not able to answer TopHat questions during class due to technical difficulties.  
+When logging into TopHat it will ask you for your university.  Typing in "University of Pittsburgh" brings up 3 options: **select the first one** that just says "University of Pittsburgh.

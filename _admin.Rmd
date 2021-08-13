@@ -1,2 +1,14 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Admin
+
+JB: https://happygitwithr.com/existing-github-last.html
+
+https://github.com/brouwern/BIOSCI_1540.git
+```{r}
+usethis::use_git()
+```
 
