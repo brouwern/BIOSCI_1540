@@ -117,7 +117,7 @@
 
 \title{BioSci 1540: Computational Biology}
 \author{Nathan L. Brouwer}
-\date{2021-08-13}
+\date{2021-08-25}
 
 \begin{document}
 \maketitle
@@ -139,78 +139,446 @@ This is the syllabus.
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{course-outline}{%
-\chapter{Course outline}\label{course-outline}}
-
-\hypertarget{unit1-1-getting-started}{%
-\section{UNIT1 1: Getting started}\label{unit1-1-getting-started}}
-
-\hypertarget{week-1-hello-computational-biology}{%
-\subsection{Week 1: Hello Computational Biology!}\label{week-1-hello-computational-biology}}
-
-Reading: NIH Working definition of bioinformatics and computational biology
-Supplemental reading: Markowetz (2017). All biology is computational biology
-Supplemental reading: Poisot et al (2019). Data based, synthesis drive: Setting the agenda for computational ecology
-
-Supplemental reading: Wikipedia. Computational biology
-
-\hypertarget{week-2-r-camp}{%
-\subsection{Week 2: R Camp}\label{week-2-r-camp}}
-
-Reading: Thieme (2018). R generation
-
-\hypertarget{week-3-stats-camp}{%
-\subsection{Week 3: Stats Camp}\label{week-3-stats-camp}}
-
-Reading: Meillere et al (2015). Traffic noise exposure affects telomere length in nestling house sparrows
-
-\hypertarget{unti-2-computational-ecology}{%
-\section{UNTI 2: Computational Ecology}\label{unti-2-computational-ecology}}
-
-Reading: Dennis et al (1991) Estimation of growth and extinction parameters for endangered species
-
-See Abstract, Introduction and Grizzly bear case study (pg 131-133).
-Reference: Morris and Doak (2002). Quantitative conservation biology.
-Reference: Steven (2009). A primer of ecology in R.
-
-\hypertarget{unit-3-phylogenetics-bioinformatics}{%
-\section{UNIT 3: Phylogenetics \& Bioinformatics}\label{unit-3-phylogenetics-bioinformatics}}
-
-Higgs and Atwood 2005. Bioinformatics and Molecular Evolution
-Lycett et al 2007. Phylogenetic analyses of behavior support existence of culture among wild
-chimpanzees
-Lycett et al 2010. Are behavioral differences among wild chimpanzee communities genetic or
-cultural? An assessment using tool‐use data and phylogenetic methods.
-
-\hypertarget{unit-4-bioinformatics-2---sequence-alignment-and-blast-searches}{%
-\section{UNIT 4: Bioinformatics 2 - Sequence Alignment and BLAST searches}\label{unit-4-bioinformatics-2---sequence-alignment-and-blast-searches}}
-
-Hildebrand and Soriano (1999). Shroom, a PDZ domain-containing actin-binding protein, is
-required for neural tube morphogenesis in mice. Cell. (link ; pdf). See section '' shrm
-Encodes a Novel PDZ Domain Protein'' and Figure 4, pg 488-489.
-Hagens, Hilderand et al (2006). A new standard nomenclature for proteins related to Apx and
-Shroom (link)
-
-\hypertarget{unit-5-bioinformatics-3---algorithms-and-statistics-of-blast}{%
-\section{Unit 5: Bioinformatics 3 - Algorithms and statistics of BLAST}\label{unit-5-bioinformatics-3---algorithms-and-statistics-of-blast}}
-
 \hypertarget{intro}{%
 \chapter{Introduction}\label{intro}}
 
-This is the syllabus
+\textbf{This is the syllabus for BIOSCI 1540: Computational Biology.}
 
-Your first assignment in the class will be to read through the syllabus and complete a ``Syllabus treasure hunt'' assignment on TopHat. After you've complete that assignment feel free to contact me with any questions you have about course policies.
+This is both the first course in the core sequence of classes of the Computational Biology major and also an elective for most Biological Sciences majors.
+
+This syllabus contains both key course policies and also is a repository for useful information about computational biology.
+
+The first several pages contain key information about the course. Subsequent pages are organized alphabetically by major topic.
+
+Pages marked ``Appendix'' are additional information about computational biology or research that you may find useful.
+
+Your first assignment in the class will be to read through the syllabus and complete a ``Syllabus treasure hunt'' assignment on Canvas.
+
+If you have a question about the syllabus (after you complete the syllabus treasure hunt) or even just spot a typo, post a comment on \href{https://github.com/brouwern/BIOSCI_1540}{GitHub} at \url{https://github.com/brouwern/BIOSCI_1540}
+
+You'll be shown how to add comments on GitHub in class. The next page of the syllabus is a page for practicing adding comments.
+
+\hypertarget{github-comments-practice}{%
+\chapter{Github comments practice}\label{github-comments-practice}}
+
+Scroll down and locate the heading for the leter your last name begins with. Then locate the bullet point for theletter your first name begins with and add a comment to that line of code.
+
+If you intials do not appear add a comment to the ``other'' label.
+
+\hypertarget{a}{%
+\section{A}\label{a}}
+
+\begin{itemize}
+\tightlist
+\item
+  E
+\item
+  J
+\item
+  other
+\end{itemize}
+
+\hypertarget{b}{%
+\section{B}\label{b}}
+
+\begin{itemize}
+\tightlist
+\item
+  A
+\item
+  H
+\item
+  L
+\item
+  M
+\item
+  O
+\item
+  S
+\item
+  other
+\end{itemize}
+
+\hypertarget{c}{%
+\section{C}\label{c}}
+
+\begin{itemize}
+\tightlist
+\item
+  E
+\item
+  J
+\item
+  M
+\item
+  R
+\item
+  Z
+\item
+  other
+\end{itemize}
+
+\hypertarget{d}{%
+\section{D}\label{d}}
+
+\begin{itemize}
+\tightlist
+\item
+  D
+\item
+  J
+\item
+  K
+\item
+  L
+\item
+  La
+\item
+  Le
+\item
+  Li
+\item
+  Lo
+\item
+  R
+\item
+  other
+\end{itemize}
+
+\hypertarget{e}{%
+\section{E}\label{e}}
+
+\begin{itemize}
+\tightlist
+\item
+  Z
+\item
+  other
+\end{itemize}
+
+\hypertarget{f}{%
+\section{F}\label{f}}
+
+\begin{itemize}
+\tightlist
+\item
+  C
+\item
+  G
+\item
+  L
+\item
+  Z
+\item
+  other
+\end{itemize}
+
+\hypertarget{g}{%
+\section{G}\label{g}}
+
+\begin{itemize}
+\tightlist
+\item
+  E
+\item
+  J
+\item
+  M
+\item
+  S
+\item
+  other
+\end{itemize}
+
+\hypertarget{h}{%
+\section{H}\label{h}}
+
+\begin{itemize}
+\tightlist
+\item
+  D
+\item
+  Ja
+\item
+  Je
+\item
+  Ji
+\item
+  Jo
+\item
+  S
+\item
+  other
+\end{itemize}
+
+\hypertarget{j}{%
+\section{J}\label{j}}
+
+\begin{itemize}
+\tightlist
+\item
+  V
+\item
+  other
+\end{itemize}
+
+\hypertarget{k}{%
+\section{K}\label{k}}
+
+\begin{itemize}
+\tightlist
+\item
+  M
+\item
+  other
+\end{itemize}
+
+\hypertarget{m}{%
+\section{M}\label{m}}
+
+\begin{itemize}
+\tightlist
+\item
+  G
+\item
+  C
+\item
+  N
+\item
+  Na
+\item
+  Ne
+\item
+  Ni
+\item
+  S
+\item
+  other
+\end{itemize}
+
+\hypertarget{n}{%
+\section{N}\label{n}}
+
+\begin{itemize}
+\tightlist
+\item
+  M
+\item
+  other
+\end{itemize}
+
+\hypertarget{n-1}{%
+\section{N}\label{n-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  N
+\item
+  other
+\end{itemize}
+
+\hypertarget{p}{%
+\section{P}\label{p}}
+
+\begin{itemize}
+\tightlist
+\item
+  C
+\item
+  J
+\item
+  H
+\item
+  S
+\item
+  other
+\end{itemize}
+
+\hypertarget{p-1}{%
+\section{P}\label{p-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  J
+\item
+  other
+\end{itemize}
+
+\hypertarget{r}{%
+\section{R}\label{r}}
+
+\begin{itemize}
+\tightlist
+\item
+  A
+\item
+  C
+\item
+  R
+\item
+  Ra
+\item
+  Re
+\item
+  Ri
+\item
+  Ro
+\item
+  V
+\item
+  Va
+\item
+  Ve
+\item
+  Vi
+\item
+  other
+\end{itemize}
+
+\hypertarget{s}{%
+\section{S}\label{s}}
+
+\begin{itemize}
+\tightlist
+\item
+  A
+\item
+  B
+\item
+  D
+\item
+  E
+\item
+  En
+\item
+  Er
+\item
+  I
+\item
+  J
+\item
+  S
+\item
+  V
+\item
+  Va
+\item
+  Ve
+\item
+  Vi
+\item
+  Vo
+\item
+  other
+\end{itemize}
+
+\hypertarget{t}{%
+\section{T}\label{t}}
+
+\begin{itemize}
+\tightlist
+\item
+  A
+\item
+  other
+\end{itemize}
+
+\hypertarget{v}{%
+\section{V}\label{v}}
+
+\begin{itemize}
+\tightlist
+\item
+  T
+\item
+  Ta
+\item
+  Ti
+\item
+  Te
+\item
+  To
+\item
+  other
+\end{itemize}
+
+\hypertarget{w}{%
+\section{W}\label{w}}
+
+\begin{itemize}
+\tightlist
+\item
+  A
+\item
+  G
+\item
+  other
+\end{itemize}
+
+\hypertarget{x}{%
+\section{X}\label{x}}
+
+\begin{itemize}
+\tightlist
+\item
+  X
+\item
+  other
+\end{itemize}
+
+\hypertarget{y}{%
+\section{Y}\label{y}}
+
+\begin{itemize}
+\tightlist
+\item
+  H
+\item
+  S
+\item
+  X
+\item
+  other
+\end{itemize}
+
+\hypertarget{z}{%
+\section{Z}\label{z}}
+
+\begin{itemize}
+\tightlist
+\item
+  Y
+\item
+  other
+\end{itemize}
 
 \hypertarget{meeting-times}{%
 \chapter{Meeting times}\label{meeting-times}}
 
-\hypertarget{instructor}{%
-\chapter{Instructor}\label{instructor}}
+The course will meeting in-person on Tuesdays and Thursday.
+
+\textbf{Location:} 1502 \href{https://www.tour.pitt.edu/tour/wesley-w-posvar-hall}{Posvar Hall}
+\textbf{Days:} Tuesday \& Thursday\\
+\textbf{Times:} 4:00PM - 5:15AM\\
+Sept 31, 2021-Dec 10, 2021
+
+The first two weeks all lectures will be live-streamed on \href{https://pitt.zoom.us/j/99372114800}{Zoom}: \url{https://pitt.zoom.us/j/99372114800}\\
+Password: ``BLOSUM''
+
+There is no recitation for this course.
+
+The official Pitt \textbf{Academic Calendar} can be found {[}here{]}(\url{https://catalog.upp.pitt.edu/mime/media/212/3179/Academic+Calendar+2021-2022.pdf}: \url{https://catalog.upp.pitt.edu/mime/media/212/3179/Academic+Calendar+2021-2022.pdf}
+
+\hypertarget{nlb}{%
+\chapter{Instructor}\label{nlb}}
 
 \textbf{Nathan L. Brouwer}, PhD
-Office: Crawford Hall\\
-A351 (the ``Bridge'')\\
-Email: nlb24 at pitt.edu
+Office: Langley Hall 215A\\
+(In the former Neuroscience office suite)\\
+Email: nlb24 at pitt.edu\\
+Github: \url{https://github.com/brouwern}
 
 \hypertarget{academic-integrity}{%
 \chapter{Academic integrity}\label{academic-integrity}}
@@ -232,40 +600,45 @@ Below is the University's Policy on Academic Integrity:
 ``Students in this course are expected to comply with the University of Pittsburgh School of Arts \& Sciences Academic Integrity Code located at www.as.pitt.edu/faculty/policy/integrity.html. Any student suspected of failing to meet the student obligations of the code during the semester will be required to participate in the procedures for adjudication, initiated at the instructor level. This may include, but is not limited to, confiscation of the assignment of any individual suspected of violating the code. A minimum sanction of a zero score for the assignment will be imposed. Violation of the Academic Integrity Code requires the instructor to submit an Academic Integrity Violation Report to the Dean.''
 \end{quote}
 
-\hypertarget{assessments---homework-policies}{%
-\chapter{Assessments - Homework policies}\label{assessments---homework-policies}}
+\hypertarget{course-communication---overview}{%
+\chapter{Course communication - Overview}\label{course-communication---overview}}
 
-Additional homework will be assigned via TopHat or Canvas. No late assignments will be accepted. Once an assignment closes on TopHat it will no longer be accepted. There will be no makeup homework assignments given. If you miss an assignment it will receive a zero. Your lowest 2 assignment scores will be dropped. This calculation will not be done until after finals.
+\hypertarget{primary-modes-of-communication}{%
+\section{Primary modes of communication}\label{primary-modes-of-communication}}
 
-\hypertarget{assessments}{%
-\chapter{Assessments Overview}\label{assessments}}
+All important details will be sent via Canvas messages and mentioned/discussed in class. It is your responsibility to regularly check Canvas messages to stay abreast of the course. Most communcation will occur on Friday's, but important updates may be sent out at other times.
 
-The primary form of assessment in the course will be regular tests (5).
+\hypertarget{secondary-modes-of-communication}{%
+\section{Secondary modes of communication}\label{secondary-modes-of-communication}}
 
-Other forms of assessment may include,
-1. Test revisions (aka Test Reworks), which will count as a form of homework.\\
-1. Quiz questions related to lecture videos, code checkpoints to assure that you can execute key functions, and software checkpoints to assure that you have the proper software involved.
-1. Additional homework
-1. Practice tests
+\hypertarget{github-issues}{%
+\subsection{Github ``issues''}\label{github-issues}}
 
-\hypertarget{online-test-taking-policies}{%
-\section{Online Test-taking policies}\label{online-test-taking-policies}}
+In this class we will be making extensive use of the code management site \href{https://github.com/}{GitHub}. Most communication about homework and other assignments will occur via GitHub's \href{https://guides.github.com/features/issues/}{Issues}{]} feature. In particular, to foster discussion we will use GitHub Issues to create forums around assignments and you will be required to submit comments.
 
-Tests may be administered online.
+\hypertarget{microsoft-sharepoint}{%
+\subsection{Microsoft SharePoint}\label{microsoft-sharepoint}}
 
-\hypertarget{final-exam-policies}{%
-\section{Final Exam Policies}\label{final-exam-policies}}
+Files containing code for this course will be distributed using Microsoft Sharepoint. Sharepoint has messaging features which I may pilot test but will not rely on.
 
-The final exam will \ldots{}
-1, Take place during finals week on the day scheduled by the University
-1. May be online or in person
-1. Is required
-1. Follow the general format of other tests.
+\hypertarget{email_and_canvas_msg}{%
+\chapter{Course communication - Email and Canvas Messages}\label{email_and_canvas_msg}}
 
-\hypertarget{assessments-1}{%
-\section{Assessments}\label{assessments-1}}
+Announcements to the whole course via Canvas will occur typically on \textbf{Friday} afternoons. Other communication related to course administration will also occur via Canvas messages.
 
-As noted previously, your lowest 2 test score will be dropped. Your next lowest test score can be replaced by your final exam, if your final exam score is higher. The final exam can therefore only benefit your score.
+Your can message me on Canvas or email me at nlb24 at pitt.edu.
+
+Please include ``Comp Bio'' as the 1st thing in your email subject line with an informative bit of information as the ``\ldots{}''. e.g.~``Comp Bio 2: problem accessing TopHat''. (Questions related to code are best submitted via GitHub).
+
+If you use another email service as your primary email (eg GMail) please set your Pitt email to forward there.
+
+For info on forwarding your Pitt email to your personal account follow this link: \url{https://bit.ly/2Riz7dx}
+
+I try to answer all emails received on weekdays before 5 pm within 24-36 hrs. Emails received after 5 pm will be answered at the earliest the following morning. Emails received on the weekend will be answered Monday.
+
+Please consult this syllabus before asking questions about course policies and the schedule, and refer to relevant information such as URLs, subject headings or dates. Screengrabs are super helpful. If the entire answer to your question can be found in the syllabus I will likely respond by saying ``\emph{This is in the syllabus, Cheers, Dr.~B.}''.
+
+Questions relevant to the whole class may be reposted (with identifying details removed) to Canvas.
 
 \hypertarget{communication---university-email-policy}{%
 \chapter{Communication - University email policy}\label{communication---university-email-policy}}
@@ -278,48 +651,10 @@ To forward e-mail sent to your University account, go to \url{http://accounts.pi
 
 For the full E-mail Communication Policy, go to bc.pitt.edu/policies/policy/09/09-10-01.html.
 
-\hypertarget{email_and_canvas_msg}{%
-\chapter{Course communication - Email and Canvas Messages}\label{email_and_canvas_msg}}
-
-Announcements to the whole course will occur typically on Friday afternoons. Other communcation related to course administration will also occur via Canvas message.
-
-Your can message me on Canvas or email me at nlb24 at pitt.edu.
-
-Please ``Comp Bio'' as the 1st thing in your email subject line with an informative bit of information as the ``\ldots{}''. Eg ``Comp Bio 2: problem accessing TopHat''.
-
-If you use another email service as your primary email (eg GMail) please set your Pitt email to forward there.
-
-For info on forwarding your Pitt email to your personal account follow this link: \url{https://bit.ly/2Riz7dx}
-
-I try to answer all emails received on weekdays before 5 pm within 24-36 hrs. Emails recieved after 5 pm will be answered at the earliest the following morning. Emails received on the weekend will be answered Monday.
-
-Please consult this syllabus before asking questions about course policies and the schedule, and refer to relevant information such as URLs, subject headings or dates. Screengrabs are super helpful. If the entire answer to your question can be found in the syllabus I will likely respond by saying ``This is in the syllabus, Cheers, Dr.~B.''*.
-
-Questions relevant to the whole class may be reposted (with identifying details removed).
-
-\hypertarget{course-communication---overview}{%
-\chapter{Course communication - Overview}\label{course-communication---overview}}
-
-\hypertarget{primary-modes-of-communication}{%
-\section{Primary modes of communication}\label{primary-modes-of-communication}}
-
-All important details will be sent via Canavas message and mentioned/discussed in class. It is your responsiblity to regularly check Canvas messages to stay abreast of the course.
-
-\hypertarget{secondary-modes-of-communication}{%
-\section{Secondary modes of communication}\label{secondary-modes-of-communication}}
-
-\hypertarget{github-issues}{%
-\subsection{Github ``issues''}\label{github-issues}}
-
-In this class we will be making extensive use of the code management site GitHub. Most communcation about homework and other assignments will occur via GitHubs Issues feature. Moreover, to foster discussion we will use GitHub issues to create forums around assignments and you will be required to submit comments.
-
-\hypertarget{microsoft-share-point}{%
-\subsection{Microsoft Share Point}\label{microsoft-share-point}}
-
-Files containing code for this course will be distributed using MicroSoft Sharepoint. Sharepoint has messaging features which I may experitment but will not rely on.
-
 \hypertarget{catalog-description}{%
 \chapter{Catalog description}\label{catalog-description}}
+
+The catalog description of this course is:
 
 \begin{quote}
 ``This course is designed to give students a broad understanding of how computational approaches can be used to solve problems in biology. Both the biological and computational underpinnings of the methods will be addressed.''
@@ -330,17 +665,40 @@ Files containing code for this course will be distributed using MicroSoft Sharep
 
 Thanks to an Open Educational Resources (OER) grant from The Office of the Provost, there are no books to buy for this course - all course materials are free and will be provided digitally through Canvas.
 
-Reading will take many forms: files containing computer code (scripts), articles and blog posts, as well as textbook. However, we'll be taking a very novel approach to the textbook for this course: \textbf{you will actually be building it yourself!}
+Reading will take several forms:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  files containing computer code (scripts)
+\item
+  articles and blog posts,
+\item
+  textbook readings.
+\end{enumerate}
+
+Importantly, we'll be taking a very novel approach to the textbook for this course: \textbf{you will actually be building it yourself!}
 
 Details will be provided in-class, but the gist regarding the textbook is:
-1. Most weeks you will be provided 1 or 2 chapters of the book in the form of computer files (``scripts'').
-1. For homework you will do exercises embedded in the chapters.
-1. When the exercises are successfully completed you will be able to convert the files to Web Pages and post them to your own Portofolio of book chapters and other completed activites.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Most weeks you will be provided 1 or 2 chapters of the book in the form of computer files (``scripts'').
+\item
+  For homework you will do exercises embedded in the chapters.
+\item
+  When the exercises are successfully completed you will be able to convert the files to Web Pages and post them to your own Portfolio of book chapters and other completed activities.
+\end{enumerate}
 
 \hypertarget{course-materials---software}{%
 \chapter{Course materials - Software}\label{course-materials---software}}
 
-Installation and account creation for all software will be covered in detail during class or via assignmetns and accompanying videos. If you want to get prepared early for the course you can explore these on your own.
+Installation and account creation for all software will be covered in detail during class or via assignments and accompanying videos. If you want to get prepared early for the course you can explore these on your own.
+
+For information on getting started with R see \href{https://brouwern.github.io/getRdone/}{Get R Done!}.
 
 \hypertarget{primary-software}{%
 \section{Primary software}\label{primary-software}}
@@ -348,49 +706,52 @@ Installation and account creation for all software will be covered in detail dur
 \hypertarget{programming-environment-r}{%
 \subsection{Programming environment: R}\label{programming-environment-r}}
 
-We will use the open-source language R for almost everything in this course.
+We will use the open-source language \protect\hyperlink{r}{R})(\url{https://cran.r-project.org/}) for almost everything in this course.
 
-\textbf{NOTE}: If you have used R before that's awesome! \textbf{Please update your installation when the class begins} - R goes through regular updates and works best with the newest version.
+\textbf{NOTE}: If you have used R before that's awesome!
+
+However, \textbf{Please update your installation when the class begins} - R goes through regular updates and works best with the newest version.
 
 If you are having trouble installing R an excellent resource is:
 \url{https://learningstatisticswithr.com/book/introR.html}
 
+\textbf{REFERENCE}\\
 R Core Team (2021). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. www.R-project.org/.
 
-\hypertarget{integrated-developement-environment}{%
-\subsection{Integrated developement environment}\label{integrated-developement-environment}}
+\hypertarget{integrated-developement-environment-ide}{%
+\subsection{Integrated developement environment (IDE)}\label{integrated-developement-environment-ide}}
 
-We'll use RStudio as the front-end for working with R.
+We'll use \href{https://www.rstudio.com/}{RStudio} as the front-end for working with R.
 
 \textbf{NOTE}: If you've use RStudio before please update it when the course begins.
 
-\textbf{RStudio:} www.rstudio.com/products/rstudio/download/\#download
+\textbf{{[}RStudio{]}(\url{https://www.rstudio.com/}:} www.rstudio.com/products/rstudio/download/\#download
 
 \hypertarget{cloud-based-r}{%
 \subsection{Cloud-based R}\label{cloud-based-r}}
 
-As a back-up to running R on your desktop I'll also introduce you to RStudio Cloud. There are also several excellent \href{https://rstudio.cloud/learn/primers}{primers} which we'll use.
+As a back-up to running R on your desktop I'll also introduce you to {[}RStudio Cloud{]}(\url{https://rstudio.cloud/}. There are also several excellent \href{https://rstudio.cloud/learn/primers}{primers} which we'll use.
 
-\textbf{RStudio cloud:} \url{https://rstudio.cloud/}
+\textbf{\href{https://rstudio.cloud/}{RStudio cloud}:} \url{https://rstudio.cloud/}
 
 \hypertarget{code-sharing}{%
 \section{Code sharing}\label{code-sharing}}
 
-\hypertarget{microsoft-sharepoint}{%
-\subsection{Microsoft SharePoint}\label{microsoft-sharepoint}}
+\hypertarget{microsoft-sharepoint-1}{%
+\subsection{Microsoft SharePoint}\label{microsoft-sharepoint-1}}
 
-R code and other files will be distributed to you via a personal folder on SharePoint, accessed via your OneDrive account.
+R code and other files will be distributed to you via a personal folder on \textbf{SharePoint}, accessed via your \textbf{OneDrive} account.
 
-You will need to ``sync'' your OneDrive account to your computer desktops to allow me to help you with your work. No code files will be shared via email or Canvas during the course.
+You will need to ``sync'' your OneDrive account to your computer desktop to allow me to help you with your work. No code files will be shared via email or Canvas during the course.
 
 \textbf{NOTE}: If you do not have access to a computer you can sync your OneDrive account please contact me so we can workout a system.
 
 \hypertarget{github}{%
 \subsection{GitHub}\label{github}}
 
-Most code for this course will be available on GitHub and you will need to create an account for some activities.
+Most code for this course will be available on \href{https://github.com/}{GitHub} and you will need to create an account for some activities.
 
-\textbf{GitHub:} \url{https://github.com/}
+Links will be distributed directly to you, but you can also see key resources pinned to my profile at \url{https://github.com/brouwern}
 
 \hypertarget{r-packages}{%
 \section{R packages}\label{r-packages}}
@@ -402,131 +763,80 @@ Many R packages (aka libraries) will be used in this course. Below are several k
 
 \emph{swirl} is an R package that sets up interactive tutorials in your R console. It works both on desktop computers and RStudio cloud and is an excellent tool for learning and reviewing R.
 
+Details for installing swirl can be found here in \href{https://brouwern.github.io/getRdone/swirl.html\#swirl}{Get R Done!}.
+
 \hypertarget{bioconductor}{%
 \subsection{Bioconductor}\label{bioconductor}}
 
 \textbf{Bioconductor} is a clearing house and repository for high-grade bioinformatics and computational biology software using R.
 
-\hypertarget{bibliography}{%
-\chapter{Bibliography}\label{bibliography}}
-
-Below are resources that you may wish to use for reference during the course or in the future for review.
-
-\hypertarget{bioinformatics-computational-biology}{%
-\section{Bioinformatics \& computational biology}\label{bioinformatics-computational-biology}}
-
-\textbf{Pevsner 2015. Bioinformatics and functional genomics. 3rd edition.}\\
-Available \textbf{FREE} via the Pitt library, though you can only download a few chapters at a time. I do \textbf{NOT} recommend buying a hard copy because I am currently only planning on using the first 1/3 of the book. If you want a hard copy and buy it used be sure to get the 3rd edition.
-
-\hypertarget{phylogenetics}{%
-\section{Phylogenetics}\label{phylogenetics}}
-
-\textbf{Wiley, EO and BS Liberman. 2011. Phylogenetics: Theory and Practice of Phylogenetic Systematics. 2nd ed.}\\
-Available \textbf{FREE} via the Pitt library, though you can only download a few chapters at a time. I do \textbf{NOT} recommend buying a hard copy because I am currently only planning on using a few chapters. If you want a hard copy and buy it used be sure to get the 2nd edition.
-
-Focal chapters in Wiley and Liberman (2011):
-* Chapter 4: Tree graphs
-* Chapter 5: Characters \& homology
-* Chapter 6: Parsimony \& parsimony analysis
-* Chapter 7: Parametric phylogenetics
-
-\hypertarget{statistics}{%
-\section{Statistics}\label{statistics}}
-
-\textbf{Navarro, D. 2019. Learning Statistics with R}
-PDF: \url{https://learningstatisticswithr.com/lsr-0.6.pdf}\\
-HTML: \url{https://learningstatisticswithr.com/book/}
-
-Focal chapters in Navarro:
-* \href{https://learningstatisticswithr.com/book/introR.html}{``Getting started with R''}
-* \href{https://learningstatisticswithr.com/book/mechanics.html}{``Additional R concepts''}
-* \href{https://learningstatisticswithr.com/book/descriptives.html}{``Descriptive statistics''}
-* \href{https://learningstatisticswithr.com/book/datahandling.html}{``Pragmatic matters''}
-* \href{https://learningstatisticswithr.com/book/graphics.html\#hist}{``Drawing graphs''}
-* \href{https://learningstatisticswithr.com/book/scripting.html}{``Basic programming''}
-* \href{https://learningstatisticswithr.com/book/probability.html}{``Introduction to probability''}
-
-\hypertarget{reference-books}{%
-\section{Reference Books}\label{reference-books}}
-
-Cadotte \& Davies. Phylogenies in ecology: A guide to concepts and methods.
-Free from library. Covers the use of phylogenies in community ecology and trait evolution.
-
-Nei and Kumar. Molecular evolution and phylogenetics.
-Free from library. Contains more mathematical treatments of maximum likelihood etc.
-
-\hypertarget{reference-articles-blogs-etc}{%
-\section{Reference articles, blogs etc}\label{reference-articles-blogs-etc}}
-
-Altman. 2009. \href{https://rbaltman.wordpress.com/2009/02/18/bioinformatics-computational-biology-same-no/}{Bioinformatics \& computational biology = Same? No.} ttps://rbaltman.wordpress.com
-
-Gregory 2008. Understanding evolutionary trees. Evo Edu Outreach 1:121-137.
-
-Koonin. 2001. Computational genomics. Current Biology 11:R155-R158.
-
-Loman and Watson. 2013. So you want to be a computational biologist? Nature Biotech.
-
-Markowetz, F. 2017. All biology is computational biology. PLoS Biology.
-
-Nascimente, FF et al.~2017. A biologist's guide to Bayesian phylogenetic analysis. Nature Ecology \& Evolution. See GitHub repo and blog posts.
-
-Nussinov et al.~2015. From ``What is?'' to ``What isn't?'' computational biology. PLoS Computational Biology.
-
-Visser et al 2015. Speeding up ecological and evolutionary computations in R: Essential of high performanc computing for biologists. PLoS Computational Biology.
+Details for installing Bioconductor can be found \href{https://brouwern.github.io/lbrb/installing-bioconductor.html}{here}.
 
 \hypertarget{DRS}{%
 \chapter{Disability Resource \& Services}\label{DRS}}
 
+If you have a disability for which you are or may be requesting an accommodation, you are encouraged to contact both your instructor and Disabilities Resources and Services. DRS will verify your disability and determine reasonable accommodations.
+
 216 William Pitt Union\\
 (412) 648-7890\\
 (412) 383-7355 (TYY)
-
-If you have a disability for which you are or may be requesting an accommodation, you are encouraged to contact both your instructor and Disabilities Resources and Services. DRS will verify your disability and determine reasonable accommodations.
 
 \hypertarget{extracredit}{%
 \chapter{Extra credit policies}\label{extracredit}}
 
 No extra credit will be offered in this course.
 
-``Buffer questions'' on the mini-tests, test revision, and the final are NOT extra credit.
+``Buffer questions'' on the mini-tests and the final are NOT extra credit.
+
+Exam revision assignments are not extra credit and do not add points to your test score.
 
 \hypertarget{file_names}{%
 \chapter{File names for homework}\label{file_names}}
 
-All files your create which get submitted for homework need to be in lower case and \textbf{strictly} adhere to this format:
+\hypertarget{files-provided-by-me}{%
+\section{Files provided by me}\label{files-provided-by-me}}
+
+You will be provided templates for most files you end up submitting for homework in this class. These file names will contain:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Your Pitt user name (e.g.~nlb24)
+\item
+  Your last name or a concatenated version of it (e.g.~brouwer)
+\end{enumerate}
+
+If you recieve an incorrect file name you may update it with your user name and last name. Otherwise, Please do not alter these file names unless instructed.
+
+\hypertarget{files-created-by-you}{%
+\section{Files created by you}\label{files-created-by-you}}
+
+All files your create on your ownwhich get submitted for homework need to be in lower case and \textbf{strictly} adhere to this format:
 
 \begin{quote}
 ``pittemail\_lastname\_assignmenttitle''
 \end{quote}
 
+Where I will provide the assignment title.
+
 For example:
 
 ``nlb24\_brouwer\_assign\_1.rmd''
 
-\hypertarget{course-goals}{%
-\section{Course Goals}\label{course-goals}}
+\hypertarget{incorrectly-named-files}{%
+\section{Incorrectly named files}\label{incorrectly-named-files}}
 
-The goals of Computational Biology is to introduce you to key concepts relatd to how computers are used to solve biological problems, and build skills essential to your success working on projects related to computational biology and bioinformatics.
+Files will be downloaded and processed automatically so it is essential that your files are named correctly; errors may result in your assignment receiving a zero. There will be a grace period of 2 weeks where I will work with everyone to understand and use the file naming system.
 
-\hypertarget{grading-scale}{%
-\chapter{Grading scale}\label{grading-scale}}
+\textbf{It is your responsibility to make sure you file names are correct.} If I spot an incorrectly named file I may have time to inform you so you can correct it, but this may not be until after the assignment is due and will result in points being lost as per the late assignment policy.
 
-\textbf{Note}: Students planning to major in Biological Sciences must pass this course with a C (not C- !) or better. Rounding is not done until final grades are computed and is done by computer to 1 decimal place.
+\hypertarget{masks-and-covid-19}{%
+\chapter{Masks and COVID-19}\label{masks-and-covid-19}}
 
-Final letter grades are assigned after rounding and is done automatically by Canvas including the decimal value. For example, a score of 91.99\% rounds to 92.0\% and is an A, but a score of 91.94\% rounds to 91.9\% and is an A-.
+During this pandemic, it is extremely important that you abide by the public health regulations, the University of Pittsburgh's health standards and guidelines, and Pitt's Health Rules.
 
-Note: Students planning to major in Computational Biology must pass this course with a C (not C- !) or better.
-
-\hypertarget{meeting-times-1}{%
-\chapter{Meeting times}\label{meeting-times-1}}
-
-The course will meeting in person on Tuesdays and Thursday. There is no recitation for this course.
-
-TopHat will be used during lectures but any questions can be answered outside of class.
-
-Location: 1502 Posvar Hall\\
-Daays: Tuesday \& Thursday\\
-Times: 4:00PM - 5:15AM
+These rules have been developed to protect the health and safety of all of us. Universal face covering is required in all classrooms and in every building on campus, without exceptions, regardless of vaccination status. This means you must wear a face covering that properly covers your nose and mouth when you are in the classroom. If you do not comply, you will be asked to leave class. It is your responsibility to have the required face covering when entering a university building or classroom. For the most up-to-date information and guidance, please visit \url{coronavirus.pitt.edu}. and check your Pitt email for updates before each class.
 
 \hypertarget{metnal-health-wellness}{%
 \chapter{Metnal health \& wellness}\label{metnal-health-wellness}}
@@ -560,64 +870,64 @@ School is hard - please take care of yourself as best you can given the many dem
 \hypertarget{instructor-office-hours}{%
 \section{INSTRUCTOR OFFICE HOURS}\label{instructor-office-hours}}
 
+\textbf{MONDAY}: Noon-1 pm.
+\href{https://pitt.zoom.us/j/92563415506}{Zoom}: \url{https://pitt.zoom.us/j/92563415506}
+Password: ``BLOSUM'' (all caps)
+
+\textbf{WEDNESDAY}: Noon-1 pm
+\href{https://pitt.zoom.us/j/92563415506}{Zoom}: \url{https://pitt.zoom.us/j/92563415506}
+Password: ``BLOSUM'' (all caps)
+
+\textbf{Other days:} By \href{calendly.com/brouwern}{appointment}: \url{calendly.com/brouwern}
+
+Office hours will be offered initially only via Zoom. After the first 2 weeks of the semester I evaluate if I will begin in-person office hours on Wednesdays.
+
 \hypertarget{uta-office-hours}{%
 \section{UTA OFFICE HOURS}\label{uta-office-hours}}
 
-\hypertarget{points}{%
-\chapter{Point breakdown}\label{points}}
+UTA office hours will be posted by the beginning of the 2nd week of lectures.\\
 
-\hypertarget{semester-schedule}{%
-\chapter{Semester schedule}\label{semester-schedule}}
+\hypertarget{individual-appointments}{%
+\section{Individual appointments}\label{individual-appointments}}
 
-\hypertarget{skills}{%
-\chapter{Skills}\label{skills}}
+I'm available for individual 15 minute appointments 10 am to noon on Tuesdays, Thursdays and Fridays. Schedule these appointments via \href{https://calendly.com/brouwern/15min}{Calendely}:\url{https://calendly.com/brouwern/15min}
 
-\textbf{Key Skills}:
-1. Understanding R code\\
-2. Data visualization\\
-3. Graph interpretation\\
-4. \ldots{}
-
-Key to Computational Biology will be developing skills as a critical practioner and consumer of science. The course will heavily emphasize the application of skills related to scientific programming, including understanding and modifying R code, plotting data, organizing computational workflows, annotating computational projects. A central set of skill we be learnign to intepret the types of graphs used in computational biology, including alignments, phylogenies, networks, heatmaps, and ordination plots. The course will also introduce basic skills related to statistics, probablity, and mathematical modeling. We will also emphasize critical reading and interpretation of the primary literature.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{library}\NormalTok{(ape)}
-
-\FunctionTok{cat}\NormalTok{(}\StringTok{"(((Strix\_aluco:4.2,Asio\_otus:4.2):3.1,"}\NormalTok{,}
-\StringTok{"Athene\_noctua:7.3):6.3,Tyto\_alba:13.5);"}\NormalTok{,}
-\AttributeTok{file =} \StringTok{"ex.tre"}\NormalTok{, }\AttributeTok{sep =} \StringTok{"}\SpecialCharTok{\textbackslash{}n}\StringTok{"}\NormalTok{)}
-\NormalTok{tree.owls }\OtherTok{\textless{}{-}} \FunctionTok{read.tree}\NormalTok{(}\StringTok{"ex.tre"}\NormalTok{)}
-\FunctionTok{plot}\NormalTok{(tree.owls)}
-\end{Highlighting}
-\end{Shaded}
-
-\includegraphics{1540_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf}
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{unlink}\NormalTok{(}\StringTok{"ex.tre"}\NormalTok{) }\CommentTok{\# delete the file "ex.tre"}
-\end{Highlighting}
-\end{Shaded}
+If office hours or available times for appointments do not work for you, please email me to coordinate a different meeting time.
 
 \hypertarget{tophat}{%
 \chapter{TopHat}\label{tophat}}
 
-\hypertarget{in-class-response-homework-system}{%
-\section{In-class response / Homework system}\label{in-class-response-homework-system}}
-
-We will use TopHat in-class and for homework. Please bring a charged TopHat compatible device to all lectures and recitations. See the \textbf{Course Policies} section for information related to if you are not able to answer TopHat questions during class due to technical difficulties.
+We will use TopHat in-class and for homework. Please bring a charged TopHat compatible device to all lectures and recitations.
 
 \href{www.tophat.com}{\textbf{TopHat}}\\
 Join Code: \textbf{209015}\\
 www.tophat.com
 
-When logging into TopHat it will ask you for your university. Typing in ``University of Pittsburgh'' brings up 3 options: \textbf{select the first one} that just says ``University of Pittsburgh.
+When logging into TopHat it will ask you for your university. Typing in ``University of Pittsburgh'' brings up 3 options: \textbf{select the first one} that just says ``University of Pittsburgh''.
 
 \hypertarget{updates-to-schedule-syllabus}{%
 \chapter{Updates to schedule \& syllabus}\label{updates-to-schedule-syllabus}}
 
-I reserve the right to update the syllabus, schedule, point allocation and all other components of the course as necessary. If changes occur after the first day of class, they will be clearly communicated in class and via email, and a revised syllabus and schedule distributed. After reading the syllabus and completing the ``Syllabus treasure hunt'' assignment (which will be posted on the first day of class) feel free to contact me with any questions about course policies.
+I reserve the right to update the syllabus, schedule, point allocation and all other components of the course as necessary.
+
+If changes occur after the first day of class, they will be clearly communicated in class and via email, and a revised syllabus and schedule distributed with major changes flagged.
+
+\hypertarget{videos-of-lectures}{%
+\chapter{Videos of lectures}\label{videos-of-lectures}}
+
+The first two weeks of class lecture will be recorded using Zoom and posted to Panopto.
+
+After the first lecture I will distribute the Panopto folder where the videos will be saved.
+
+Note: Since this class is not meant to be taken asynchronously I will not actively support use of these videos.
+
+\hypertarget{zoom}{%
+\chapter{Zoom}\label{zoom}}
+
+Class will be in-person and streamed live via Zoom the first two weeks.
+
+\url{https://pitt.zoom.us/j/99372114800}\strut \\
+Password: ``BLOSUM''
 
 \hypertarget{appendix-graduate-school}{%
 \chapter{Appendix: graduate school}\label{appendix-graduate-school}}
@@ -645,14 +955,14 @@ On the publishing process: a tweet by \citet{dsquintana}
 
 RStudio produces a number of \href{https://www.rstudio.com/resources/cheatsheets/\#ide}{cheatsheets}; the most useful ones for beginners are below.
 
-Basic R code
+\href{http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf}{\textbf{Basic R code}}\\
 \url{http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf}
 
-RStudio
+\textbf{RStudio}
 \url{https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf}
 
-RMarkdown
-\url{https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf}
+\textbf{RMarkdown}
+\url{https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf}\\
 \url{https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf}
 
 Translations of some of these cheat sheets can be found at the bottom of the RStudio page.

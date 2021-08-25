@@ -1,0 +1,18 @@
+# Course communication - Overview
+
+## Primary modes of communication
+
+All important details will be sent via Canvas messages and mentioned/discussed in class.  It is your responsibility to regularly check Canvas messages to stay abreast of the course.  Most communcation will occur on Friday's, but important updates may be sent out at other times.
+
+<!-- TODO: how to set up canvas notifications? -->
+
+## Secondary modes of communication
+
+### Github "issues"
+
+In this class we will be making extensive use of the code management site [GitHub](https://github.com/).  Most communication about homework and other assignments will occur via GitHub's [Issues](https://guides.github.com/features/issues/)] feature.  In particular, to foster discussion we will use GitHub Issues to create forums around assignments and you will be required to submit comments.
+
+### Microsoft SharePoint
+
+Files containing code for this course will be distributed using Microsoft Sharepoint.  Sharepoint has messaging features which I may pilot test but will not rely on.  
+

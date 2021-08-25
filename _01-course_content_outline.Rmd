@@ -1,4 +1,4 @@
-# Course outline
+# Course content outline
 
 ## UNIT1 1: Getting started
 
@@ -36,8 +36,7 @@ cultural? An assessment using tool‐use data and phylogenetic methods.
 Hildebrand and Soriano (1999). Shroom, a PDZ domain-containing actin-binding protein, is 
 required for neural tube morphogenesis in mice.  Cell.  (link ; pdf). See section " shrm 
 Encodes a Novel PDZ Domain Protein" and Figure 4, pg 488-489.
-Hagens, Hilderand et al (2006). A new standard nomenclature for proteins related to Apx and 
-Shroom (link)
+Hagens, Hildebrand et al (2006). A new standard nomenclature for proteins related to Apx and Shroom.
 
 ## Unit 5: Bioinformatics 3 - Algorithms and statistics of BLAST
 

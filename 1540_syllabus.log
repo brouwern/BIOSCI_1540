@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  13 AUG 2021 13:01
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  25 AUG 2021 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -795,21 +795,21 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] (./1540_syllabus.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 3.
+(Font)              scaled to size 7.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 3.
+(Font)              scaled to size 5.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 3.
+(Font)              scaled to size 10.00092pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 3.
+(Font)              scaled to size 7.00064pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 3.
+(Font)              scaled to size 5.00046pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 3.
+(Font)              scaled to size 9.99893pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 3.
+(Font)              scaled to size 6.99925pt on input line 4.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 3.
+(Font)              scaled to size 4.99947pt on input line 4.
 [3] [4])
 \tf@toc=\write4
 \openout4 = `1540_syllabus.toc'.
@@ -822,183 +822,169 @@ Chapter 1.
 
 ]
 Chapter 2.
-[9] [10]
-Chapter 3.
-[11
+[9] [10
 
-] [12
+]
+Chapter 3.
+[11] [12] [13] [14] [15] [16
 
 ]
 Chapter 4.
-[13] [14
-
-]
-Chapter 5.
-[15] [16
-
-]
-Chapter 6.
 [17] [18
 
 ]
-Chapter 7.
+Chapter 5.
 [19] [20
 
 ]
-Chapter 8.
+Chapter 6.
 [21] [22
 
 ]
-Chapter 9.
-
-Overfull \hbox (8.822pt too wide) in paragraph at lines 279--280
-[]\TU/lmr/m/n/10 For the full E-mail Communication Policy, go to bc.pitt.edu/po
-licies/policy/09/09-
- []
-
+Chapter 7.
 [23] [24
 
 ]
-Chapter 10.
+Chapter 8.
 [25]
-Overfull \hbox (39.72452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 26 \TU/lmr/m/sl/10 CHAPTER 10.  COURSE COMMUNICATION - EMAIL AND
- CANVAS MESSAGES
+Overfull \hbox (34.72452pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 26 \TU/lmr/m/sl/10 CHAPTER 8.  COURSE COMMUNICATION - EMAIL AND 
+CANVAS MESSAGES
  []
 
 [26
 
 ]
-Chapter 11.
+Chapter 9.
+
+Overfull \hbox (8.822pt too wide) in paragraph at lines 652--653
+[]\TU/lmr/m/n/10 For the full E-mail Communication Policy, go to bc.pitt.edu/po
+licies/policy/09/09-
+ []
+
 [27] [28
 
 ]
-Chapter 12.
+Chapter 10.
 [29] [30
 
 ]
-Chapter 13.
+Chapter 11.
 [31] [32
 
 ]
-Chapter 14.
+Chapter 12.
+
+Overfull \hbox (103.62502pt too wide) in paragraph at lines 728--729
+[]\TU/lmr/bx/n/10 [RStudio]([]$[] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
+[] [] [] [] [] [] [][]$[]: \TU/lmr/m/n/10 www.rstudio.com/products/rstudio/down
+load/#download 
+ []
+
 [33] [34]
-Chapter 15.
+Chapter 13.
 [35
 
-] [36]
-Chapter 16.
-[37
+] [36
 
-] [38
+]
+Chapter 14.
+[37] [38
+
+]
+Chapter 15.
+[39] [40]
+Chapter 16.
+[41
+
+] [42
 
 ]
 Chapter 17.
-[39] [40
 
-]
-Chapter 18.
-[41] [42
-
-]
-Chapter 19.
-[43] [44
-
-]
-Chapter 20.
-[45] [46
-
-]
-Chapter 21.
-
-Underfull \hbox (badness 3872) in paragraph at lines 541--543
+Underfull \hbox (badness 3872) in paragraph at lines 851--853
 []\TU/lmr/m/n/10 If your symptoms are due to FINANCIAL strain, please visit
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 541--543
+Underfull \hbox (badness 2237) in paragraph at lines 851--853
 \TU/lmr/m/n/10 pitt.libguides.com/assistanceresources to see all available Univ
 ersity
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 543--545
+Underfull \hbox (badness 1199) in paragraph at lines 853--855
 []\TU/lmr/m/n/10 If your symptoms are due to strained RELATIONSHIPS, families,
  []
 
+[43] [44
+
+]
+Chapter 18.
+
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+
+ []
+
+[45] [46
+
+]
+Chapter 19.
 [47] [48
 
 ]
-Chapter 22.
+Chapter 20.
 [49] [50
 
 ]
-Chapter 23.
+Chapter 21.
 [51] [52
 
 ]
-Chapter 24.
+Chapter 22.
 [53] [54
 
 ]
+Chapter 23.
+
+Package natbib Warning: Citation `dsquintana' on page 55 undefined on input lin
+e 950.
+
+[55] [56
+
+]
+Chapter 24.
+[57] [58
+
+]
 Chapter 25.
-File: 1540_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (type
- pdf)
-<use 1540_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[55] [56]
-Chapter 26.
-[57
-
-] [58
-
-]
-Chapter 27.
-[59] [60
-
-]
-Chapter 28.
-
-Package natbib Warning: Citation `dsquintana' on page 61 undefined on input lin
-e 640.
-
-[61] [62
-
-]
-Chapter 29.
-[63] [64
-
-]
-Chapter 30.
-[65]
+[59]
 Overfull \hbox (72.15562pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 66 \TU/lmr/m/sl/10 CHAPTER 30.  APPENDIX: GETTING INVOLVED IN (C
+\TU/lmr/m/n/10 60 \TU/lmr/m/sl/10 CHAPTER 25.  APPENDIX: GETTING INVOLVED IN (C
 OMPUTATIONAL) RESEARCH
  []
 
-[66
+[60
 
 ]
-Chapter 31.
+Chapter 26.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 679.
-[67]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 679.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 989.
+[61]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 989.
 (./1540_syllabus.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 679.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 679.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 989.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 989.
  ) 
 Here is how much of TeX's memory you used:
- 19171 strings out of 479418
- 338634 string characters out of 5884586
- 779533 words of memory out of 5000000
- 36409 multiletter control sequences out of 15000+600000
- 538805 words of font info for 79 fonts, out of 8000000 for 9000
+ 19182 strings out of 479418
+ 338110 string characters out of 5884586
+ 779197 words of memory out of 5000000
+ 36419 multiletter control sequences out of 15000+600000
+ 538821 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,6n,118p,812b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,6n,118p,812b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 1540_syllabus.pdf (67 pages).
+Output written on 1540_syllabus.pdf (61 pages).

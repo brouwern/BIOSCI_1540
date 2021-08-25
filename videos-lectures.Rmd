@@ -1,0 +1,9 @@
+# Videos of lectures
+
+The first two weeks of class lecture will be recorded using Zoom and posted to Panopto.
+
+After the first lecture I will distribute the Panopto folder where the videos will be saved.
+
+Note: Since this class is not meant to be taken asynchronously I will not actively support use of these videos.
+
+<!-- TODO: finalize policy -->

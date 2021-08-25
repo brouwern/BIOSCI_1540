@@ -1,0 +1,10 @@
+# Assessments - Homework policies {#homework}
+
+Homework for outside of class will be assigned via Canvas.  
+
+
+
+**Late assignments:** Canvas will automatically deduct 0.5% of your score on all non-test assignments per hour, rounding  to the nearest hour (12%/day).  29 minutes = 0 hours = full credit, 31 minutes = 1 hour.
+
+
+<!-- PREVIOUS policy: No late assignments will be accepted.  Once an assignment closes on TopHat it will no longer be accepted.  There will be no makeup homework assignments given.  If you miss an assignment it will receive a zero.  Your lowest 2 assignment scores will be dropped.  This calculation will not be done until after finals.  -->

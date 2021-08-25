@@ -1,5 +1,11 @@
 # Point breakdown {#points}
 
+You can view the point breakdown and a summary of related policies [here](https://docs.google.com/spreadsheets/d/1G_-Iqg85j5HgYVSwHyutMkaZWkZzbr32we-HVjJZhdk/edit?usp=sharing).  Commenting is enabled; feel free to post questions.
+
+```{r, echo = F}
+url. <- "https://docs.google.com/spreadsheets/d/1G_-Iqg85j5HgYVSwHyutMkaZWkZzbr32we-HVjJZhdk/edit?usp=sharing"
+knitr::include_url(url.)
+```
 
 
 <!-- ```{r fig.margin = TRUE, fig.cap = "", fig.width=3.5, fig.height=3.5, cache=TRUE, message=FALSE} -->

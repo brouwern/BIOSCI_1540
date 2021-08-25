@@ -1,0 +1,225 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+# Github comments practice
+
+Scroll down and locate the heading for the leter your last name begins with.  Then locate the bullet point for theletter your first name begins with and add a comment to that line of code.
+
+If you intials do not appear add a comment to the "other" label.
+
+```{r, echo = F, eval = F}
+dat <- X1540_roster_082521_Wed_cleaned
+names(dat)
+
+dat <- stringr::str_split(dat$name_last, pattern = ", ",simplify = T)
+dat <- as.data.frame(dat)
+row.names(dat) <- "NULL"
+names(dat) <- c("last","first")
+dat <- dat[order(dat$last), ]
+
+dat$last <- gsub("(^.)(.*)","## \\1", dat$last)
+dat$first <- gsub("(^.)(.*)","\\* \\1", dat$first)
+
+write.csv(dat, "dat.csv")
+
+```
+
+
+## A	
+
+* E
+* J
+* other
+
+## B	
+
+* A
+* H
+* L
+* M
+* O
+* S
+* other
+
+	
+## C	
+
+
+* E
+* J
+* M
+* R
+* Z
+* other
+	
+## D
+
+* D
+* J
+* K
+* L
+* La
+* Le
+* Li
+* Lo
+* R
+* other
+
+
+	
+## E
+
+* Z
+* other
+
+## F	
+
+* C
+* G
+* L
+* Z
+* other
+
+	
+	
+## G	
+
+
+* E
+* J
+* M
+* S
+* other
+
+
+
+
+## H	
+
+* D
+* Ja
+* Je
+* Ji
+* Jo
+* S
+* other
+
+
+## J	
+
+* V
+* other
+
+## K	
+
+* M
+* other
+
+## M	
+
+* G
+* C
+* N
+* Na
+* Ne
+* Ni
+* S
+* other
+
+## N	
+
+* M
+* other
+
+## N	
+
+* N
+* other
+
+## P
+
+* C
+* J
+* H
+* S
+* other
+
+## P	
+
+* J
+* other
+
+## R
+
+* A
+* C
+* R
+* Ra
+* Re
+* Ri
+* Ro
+* V
+* Va
+* Ve
+* Vi
+* other
+
+	
+## S	
+
+* A
+* B
+* D
+* E
+* En
+* Er
+* I
+* J
+* S
+* V
+* Va
+* Ve
+* Vi
+* Vo
+* other
+
+
+## T	
+
+* A
+* other
+
+## V	
+
+* T
+* Ta
+* Ti
+* Te
+* To
+* other
+	
+## W
+
+* A
+* G
+* other
+
+## X	
+
+* X
+* other
+
+## Y	
+
+* H
+* S
+* X
+* other
+
+	
+## Z	
+
+* Y
+* other

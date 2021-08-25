@@ -1,0 +1,15 @@
+# Cheat sheets
+
+RStudio produces a number of [cheatsheets](https://www.rstudio.com/resources/cheatsheets/#ide); the most useful ones for beginners are below.
+
+[**Basic R code**](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf)  
+[http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf)
+
+**RStudio**
+[https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)
+
+**RMarkdown**
+[https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)  
+[https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+
+Translations of some of these cheat sheets can be found at the bottom of the RStudio page.

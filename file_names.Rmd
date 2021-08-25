@@ -1,11 +1,29 @@
 # File names for homework {#file_names}
 
-All files your create which get submitted for homework need to be in lower case and **strictly** adhere to this format:
+## Files provided by me 
+
+You will be provided templates for most files you end up submitting for homework in this class.  These file names will contain:
+
+1. Your Pitt user name (e.g. nlb24)
+1. Your last name or a concatenated version of it (e.g. brouwer)
+
+If you recieve an incorrect file name you may update it with your user name and last name.  Otherwise, Please do not alter these file names unless instructed.
+
+
+## Files created by you
+
+All files your create on your ownwhich get submitted for homework need to be in lower case and **strictly** adhere to this format:
 
 > "pittemail_lastname_assignmenttitle"
+
+Where I will provide the assignment title.  
 
 For example:
 
 "nlb24_brouwer_assign_1.rmd"
 
-<!-- Any assignment submitted with an incorrect file name will recieve zero points and not be graded. If the file name is corrected the assignment will be graded but have 20% of the total points deducted. -->
+## Incorrectly named files
+
+Files will be downloaded and processed automatically so it is essential that your files are named correctly; errors may result in your assignment receiving a zero.  There will be a grace period of 2 weeks where I will work with everyone to understand and use the file naming system.
+
+**It is your responsibility to make sure you file names are correct.**  If I spot an incorrectly named file I may have time to inform you so you can correct it, but this may not be until after the assignment is due and will result in points being lost as per the late assignment policy.
