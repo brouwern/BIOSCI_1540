@@ -27,6 +27,13 @@ z
 meeting-times
 nlb
 academic-integrity
+assessments
+test-taking-policies
+key-test-policies
+test-dropping-policy
+final-exam-policies
+exam-buffer-question-policy
+homework
 course-communication---overview
 primary-modes-of-communication
 secondary-modes-of-communication
@@ -53,6 +60,7 @@ file_names
 files-provided-by-me
 files-created-by-you
 incorrectly-named-files
+grading-scale
 masks-and-covid-19
 metnal-health-wellness
 resources
@@ -60,6 +68,9 @@ office-hours
 instructor-office-hours
 uta-office-hours
 individual-appointments
+points
+semester-schedule
+weekly-schedule
 tophat
 updates-to-schedule-syllabus
 videos-of-lectures

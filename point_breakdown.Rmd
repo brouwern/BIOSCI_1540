@@ -1,0 +1,41 @@
+# Point breakdown {#points}
+
+You can view the point breakdown and a summary of related policies [here](https://docs.google.com/spreadsheets/d/1G_-Iqg85j5HgYVSwHyutMkaZWkZzbr32we-HVjJZhdk/edit?usp=sharing).  Commenting is enabled; feel free to post questions.
+
+```{r, echo = F}
+url. <- "https://docs.google.com/spreadsheets/d/1G_-Iqg85j5HgYVSwHyutMkaZWkZzbr32we-HVjJZhdk/edit?usp=sharing"
+knitr::include_url(url.)
+```
+
+
+<!-- ```{r fig.margin = TRUE, fig.cap = "", fig.width=3.5, fig.height=3.5, cache=TRUE, message=FALSE} -->
+<!-- library(ggpubr) -->
+<!-- point_breakdown$`% of final grade` <- gsub("%","",point_breakdown$`% of final grade`) -->
+<!-- point_breakdown$`% of final grade` <- as.numeric(point_breakdown$`% of final grade`) -->
+<!-- names(point_breakdown)[4] <- "percent" -->
+<!-- #names(point_breakdown)[2] <- "Item" -->
+<!-- point_breakdown$label <- "" -->
+<!-- ggpie(data = point_breakdown, -->
+<!--       x = "percent", -->
+<!--       label = "Item", -->
+<!--       fill = "Item") -->
+<!-- ``` -->
+
+<!-- ```{r, eval = T, echo = F} -->
+<!-- knitr::kable(point_breakdown[, -ncol(point_breakdown)]) -->
+<!-- ``` -->
+
+
+<!-- Notes:  -->
+
+<!-- 1. "*" = the value in the "Number" column is an approximation.  Final numbers of assignments to be determined. -->
+<!-- 1. Each midterm covers ~7 lectures -->
+<!-- 1. The Unit 4 exam given along with final -->
+<!-- 1. The Unit 4 exam will cover lectures which occur between the 3rd midterm and the final. -->
+<!-- 1. If higher, your final exam can replace your lowest midterm from units 1-3 -->
+<!-- 1. There will be no extra credit offered. -->
+
+
+
+<!-- The point breakdown can be viewed as a spreadsheet here -->
+<!-- https://docs.google.com/spreadsheets/d/1qfd8oX_JVzHgCqkIV2VZlBqWRmqUaftbQ4U_DBH33yw/edit?usp=sharing -->

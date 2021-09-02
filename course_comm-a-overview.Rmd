@@ -2,7 +2,7 @@
 
 ## Primary modes of communication
 
-All important details will be sent via Canvas messages and mentioned/discussed in class.  It is your responsibility to regularly check Canvas messages to stay abreast of the course.  Most communcation will occur on Friday's, but important updates may be sent out at other times.
+All important details will be sent via Canvas messages and mentioned/discussed in class.  It is your responsibility to regularly check Canvas messages to stay abreast of the course.  Most communication will occur on Fridays, but important updates may be sent out at other times.
 
 <!-- TODO: how to set up canvas notifications? -->
 
