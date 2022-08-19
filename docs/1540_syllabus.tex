@@ -33,14 +33,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={BioSci 1540: Computational Biology},
-  pdfauthor={Nathan L. Brouwer},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
@@ -114,10 +106,18 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={BioSci 1540: Computational Biology},
+  pdfauthor={Nathan L. Brouwer},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{BioSci 1540: Computational Biology}
 \author{Nathan L. Brouwer}
-\date{2021-09-16}
+\date{2022-08-19}
 
 \begin{document}
 \maketitle
@@ -144,441 +144,38 @@ This is the syllabus.
 
 \textbf{This is the syllabus for BIOSCI 1540: Computational Biology.}
 
-This is both the first course in the core sequence of classes of the Computational Biology major and also an elective for most Biological Sciences majors.
+This is both the first course in the core sequence of classes of the Computational Biology major, as well an elective for most Biological Sciences majors.
 
-This syllabus contains both key course policies and also is a repository for useful information about computational biology.
+This syllabus contains both key course policies and also is a repository for useful information about the rapidly expanding and evolving field of computational biology.
 
 The first several pages contain key information about the course. Subsequent pages are organized alphabetically by major topic.
 
-Pages marked ``Appendix'' are additional information about computational biology or research that you may find useful.
-
-Your first assignment in the class will be to read through the syllabus and complete a ``Syllabus treasure hunt'' assignment on Canvas.
-
-If you have a question about the syllabus (after you complete the syllabus treasure hunt) or even just spot a typo, post a comment on \href{https://github.com/brouwern/BIOSCI_1540}{GitHub} at \url{https://github.com/brouwern/BIOSCI_1540}
-
-You'll be shown how to add comments on GitHub in class. The next page of the syllabus is a page for practicing adding comments.
-
-\hypertarget{github-comments-practice}{%
-\chapter{Github comments practice}\label{github-comments-practice}}
-
-Scroll down and locate the heading for the leter your last name begins with. Then locate the bullet point for theletter your first name begins with and add a comment to that line of code.
-
-If you intials do not appear add a comment to the ``other'' label.
-
-\hypertarget{a}{%
-\section{A}\label{a}}
-
-\begin{itemize}
-\tightlist
-\item
-  E
-\item
-  J
-\item
-  other
-\end{itemize}
-
-\hypertarget{b}{%
-\section{B}\label{b}}
-
-\begin{itemize}
-\tightlist
-\item
-  A
-\item
-  H
-\item
-  L
-\item
-  M
-\item
-  O
-\item
-  S
-\item
-  other
-\end{itemize}
-
-\hypertarget{c}{%
-\section{C}\label{c}}
-
-\begin{itemize}
-\tightlist
-\item
-  E
-\item
-  J
-\item
-  M
-\item
-  R
-\item
-  Z
-\item
-  other
-\end{itemize}
-
-\hypertarget{d}{%
-\section{D}\label{d}}
-
-\begin{itemize}
-\tightlist
-\item
-  D
-\item
-  J
-\item
-  K
-\item
-  L
-\item
-  La
-\item
-  Le
-\item
-  Li
-\item
-  Lo
-\item
-  R
-\item
-  other
-\end{itemize}
-
-\hypertarget{e}{%
-\section{E}\label{e}}
-
-\begin{itemize}
-\tightlist
-\item
-  Z
-\item
-  other
-\end{itemize}
-
-\hypertarget{f}{%
-\section{F}\label{f}}
-
-\begin{itemize}
-\tightlist
-\item
-  C
-\item
-  G
-\item
-  L
-\item
-  Z
-\item
-  other
-\end{itemize}
-
-\hypertarget{g}{%
-\section{G}\label{g}}
-
-\begin{itemize}
-\tightlist
-\item
-  E
-\item
-  J
-\item
-  M
-\item
-  S
-\item
-  other
-\end{itemize}
-
-\hypertarget{h}{%
-\section{H}\label{h}}
-
-\begin{itemize}
-\tightlist
-\item
-  D
-\item
-  Ja
-\item
-  Je
-\item
-  Ji
-\item
-  Jo
-\item
-  S
-\item
-  other
-\end{itemize}
-
-\hypertarget{j}{%
-\section{J}\label{j}}
-
-\begin{itemize}
-\tightlist
-\item
-  V
-\item
-  other
-\end{itemize}
-
-\hypertarget{k}{%
-\section{K}\label{k}}
-
-\begin{itemize}
-\tightlist
-\item
-  M
-\item
-  other
-\end{itemize}
-
-\hypertarget{m}{%
-\section{M}\label{m}}
-
-\begin{itemize}
-\tightlist
-\item
-  G
-\item
-  C
-\item
-  N
-\item
-  Na
-\item
-  Ne
-\item
-  Ni
-\item
-  S
-\item
-  other
-\end{itemize}
-
-\hypertarget{n}{%
-\section{N}\label{n}}
-
-\begin{itemize}
-\tightlist
-\item
-  M
-\item
-  other
-\end{itemize}
-
-\hypertarget{n-1}{%
-\section{N}\label{n-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  N
-\item
-  other
-\end{itemize}
-
-\hypertarget{p}{%
-\section{P}\label{p}}
-
-\begin{itemize}
-\tightlist
-\item
-  C
-\item
-  J
-\item
-  H
-\item
-  S
-\item
-  other
-\end{itemize}
-
-\hypertarget{p-1}{%
-\section{P}\label{p-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  J
-\item
-  other
-\end{itemize}
-
-\hypertarget{r}{%
-\section{R}\label{r}}
-
-\begin{itemize}
-\tightlist
-\item
-  A
-\item
-  C
-\item
-  R
-\item
-  Ra
-\item
-  Re
-\item
-  Ri
-\item
-  Ro
-\item
-  V
-\item
-  Va
-\item
-  Ve
-\item
-  Vi
-\item
-  other
-\end{itemize}
-
-\hypertarget{s}{%
-\section{S}\label{s}}
-
-\begin{itemize}
-\tightlist
-\item
-  A
-\item
-  B
-\item
-  D
-\item
-  E
-\item
-  En
-\item
-  Er
-\item
-  I
-\item
-  J
-\item
-  S
-\item
-  V
-\item
-  Va
-\item
-  Ve
-\item
-  Vi
-\item
-  Vo
-\item
-  other
-\end{itemize}
-
-\hypertarget{t}{%
-\section{T}\label{t}}
-
-\begin{itemize}
-\tightlist
-\item
-  A
-\item
-  other
-\end{itemize}
-
-\hypertarget{v}{%
-\section{V}\label{v}}
-
-\begin{itemize}
-\tightlist
-\item
-  T
-\item
-  Ta
-\item
-  Ti
-\item
-  Te
-\item
-  To
-\item
-  other
-\end{itemize}
-
-\hypertarget{w}{%
-\section{W}\label{w}}
-
-\begin{itemize}
-\tightlist
-\item
-  A
-\item
-  G
-\item
-  other
-\end{itemize}
-
-\hypertarget{x}{%
-\section{X}\label{x}}
-
-\begin{itemize}
-\tightlist
-\item
-  X
-\item
-  other
-\end{itemize}
-
-\hypertarget{y}{%
-\section{Y}\label{y}}
-
-\begin{itemize}
-\tightlist
-\item
-  H
-\item
-  S
-\item
-  X
-\item
-  other
-\end{itemize}
-
-\hypertarget{z}{%
-\section{Z}\label{z}}
-
-\begin{itemize}
-\tightlist
-\item
-  Y
-\item
-  other
-\end{itemize}
+Pages marked ``\textbf{Appendix}'' are additional information about computational biology or undergraduate research that you may find useful.
 
 \hypertarget{meeting-times}{%
 \chapter{Meeting times}\label{meeting-times}}
 
-The course will meeting in-person on Tuesdays and Thursday.
+The course will meeting \textbf{in-person} on Tuesdays and Thursday.
 
 \textbf{Location:} 1502 \href{https://www.tour.pitt.edu/tour/wesley-w-posvar-hall}{Posvar Hall}
 \textbf{Days:} Tuesday \& Thursday\\
 \textbf{Times:} 4:00PM - 5:15PM
-Aug 31, 2021-Dec 10, 2021
-
-The first two weeks all lectures will be live-streamed on \href{https://pitt.zoom.us/j/99372114800}{Zoom}: \url{https://pitt.zoom.us/j/99372114800}\\
-Password: ``BLOSUM''
+Aug 30, 2021-Dec 8, 2022
 
 There is no recitation for this course.
 
-The official Pitt \textbf{Academic Calendar} can be found {[}here{]}(\url{https://catalog.upp.pitt.edu/mime/media/212/3179/Academic+Calendar+2021-2022.pdf}: \url{https://catalog.upp.pitt.edu/mime/media/212/3179/Academic+Calendar+2021-2022.pdf}
+The official Pitt \textbf{Academic Calendar} can be found \href{https://www.registrar.pitt.edu/sites/default/files/pdf/Academic\%20Calendar\%202022-2023_Apple.pdf}{here}
 
 \hypertarget{nlb}{%
 \chapter{Instructor}\label{nlb}}
 
 \textbf{Nathan L. Brouwer}, PhD
-Office: Langley Hall 215A\\
-(In the former Neuroscience office suite)\\
+Office: Langley Hall A255\\
+In the ``Langely Bridge'' where the advisors offices used to be.
 Email: nlb24 at pitt.edu\\
 Github: \url{https://github.com/brouwern}
+
+\textless src=``\url{https://www.biology.pitt.edu/sites/default/files/BrouwerN.jpeg}''\textgreater{}
 
 \hypertarget{academic-integrity}{%
 \chapter{Academic integrity}\label{academic-integrity}}
@@ -603,20 +200,66 @@ Below is the University's Policy on Academic Integrity:
 \hypertarget{assessments}{%
 \chapter{Assessments Overview}\label{assessments}}
 
-The primary form of assessment in the course will be 5 unit tests.
+The primary forms of assessment in the course will i) exams, ii) regular submission of ``portfolio'' assignments, and iii) individual projects.
 
-The final is the 5th unit test, but will also draw on themes from throughout the semester
+\hypertarget{primary-assessments}{%
+\section{Primary assessments}\label{primary-assessments}}
 
-Other forms of assessment will include,\\
-1. \textbf{Test revisions} (aka Test Reworks), which will count as a form of homework and do not add points back to your test.\\
-1. \textbf{Canvas Quiz questions} related to lecture videos, \textbf{Code checkpoints} to assure that you can execute key functions, and \textbf{Software checkpoints} to assure that you have the proper software involved.
-1. Additional homework
-1. Practice tests or test preparation assignments.
+The key assessments are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{1 R programming basics quiz}: A ``take-home'' Canvas quiz at the end of the 2nd week of class.\\
+\item
+  \textbf{3 Unit Exams}: In-class exams to test you mastery of computational biology concepts and their implementations in R.
+\item
+  \textbf{1 Capstone Exam}: During the \textbf{final exam} period you will take an exam on material from the 4th and final unit of the class, which serves as a capstone unit where themes from throughout the course are brought together. This is a semi-cumulative exam.\\
+\item
+  \textbf{1 to 2 weekly portfolio assignments}: Each week you will be given an assignment to test your understanding of key concepts and programming principles. Through these assignments you will build up an \textbf{online portfolio} of all your code from throughout the semester.
+\item
+  \textbf{1 to 2 individual projects}: Over the course of the semester you will begin working on individual-based analyses of unique biological datasets or problems. You will build up your analyses incrementally over the course of the semester by adapting code from your portfolio assignments to your individual datasets.
+\end{enumerate}
+
+\hypertarget{secondary-assessments}{%
+\section{Secondary assessments}\label{secondary-assessments}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Software checkpoints} to assure that you have the proper software involved. These are usually completed by submitting a screen grab of your computer console showing successful installation of the software.
+\item
+  \textbf{Code checkpoints} to assure that you can execute key functions correctly before attempting portfolio assignments. These are usually completed by submitting a screen grab of your computer console showing successful execution of the code.
+\item
+  \textbf{In-class TopHat} polls, questions and small assignments. These are typically graded for participation.
+\item
+  \textbf{In-class Worksheets}; you'll usually complete these in-class and submit and image of them online via Canvas. These are typically graded for participation / completion.
+\item
+  \textbf{Other assignments}: Other small assignments may be given for completion outside of class.
+\end{enumerate}
+
+\hypertarget{pracice-problems}{%
+\section{Pracice problems}\label{pracice-problems}}
+
+Other materials will be provided for optional practice. These will be set to zero points.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Canvas Quiz questions} related to vocab, code, concepts etc.
+\item
+  \textbf{Optional Portfolio assignments}
+\item
+  \textbf{Previous exam questions} or full \textbf{Practice tests}. These questions may not always align perfectly with current course content but will give you an idea of the types of questions that will appear on an upcoming exam.
+\end{enumerate}
 
 \hypertarget{test-taking-policies}{%
 \section{Test-taking policies}\label{test-taking-policies}}
 
-Tests will be in-person during the regularly schedule time and administered as a combination of
+Except for the first R quiz, tests will be in-person during the regularly schedule time and administered as \textbf{Canvas Quiz.} Components of exam typically include
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -624,9 +267,7 @@ Tests will be in-person during the regularly schedule time and administered as a
 \item
   Stand-alone canvas quiz questions
 \item
-  Canvas quiz questions based on code I provide
-\item
-  Code-based questions which you'll answer via a separtate file, submitted via Canvas.
+  Code-based questions which you'll answer via a separate file, submitted via Canvas. Submissions are typically images or code files.
 \end{enumerate}
 
 \hypertarget{key-test-policies}{%
@@ -636,11 +277,15 @@ Tests will be in-person during the regularly schedule time and administered as a
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  All answers will be submitted by the end of the normal class period.\\
+  All answers will be submitted by the end of the normal class period.
 \item
-  If you are unable to take or complete an exam your score will be eligible to be dropped or replaced as specified elsewhere in the syllabus.
+  With prior approval you will be able to take 1 exam remotely via Zoom over the course the semester. The final must be taken in-person.
 \item
-  It is your responsibility to assure that you have adequate power in your devices and internet access to complete exams.\\
+  Your lowest of the three regular unit exams will be dropped, e.g.~if you miss an exam entirely due to illness. The final exam cannot be dropped.
+\item
+  Make-up exams and exam re-takes will not be offered.
+\item
+  It is your responsibility to assure that you have adequate power in your devices and internet access to complete exams. Please take your power cord to class!\\
 \item
   Adjustments will be made as necessary for students with DRS accommodations.
 \item
@@ -650,54 +295,46 @@ Tests will be in-person during the regularly schedule time and administered as a
 \hypertarget{test-dropping-policy}{%
 \section{Test dropping policy}\label{test-dropping-policy}}
 
-Your lowest unit test will be dropped. Your second-lowest score can be replaced by the final, if you score higher on the final. See the section on the final exam for further explanation.
+Your lowest regular unit test will be dropped. The final exam CANNOT be dropped.
 
 \hypertarget{final-exam-policies}{%
 \section{Final Exam Policies}\label{final-exam-policies}}
 
-The final will cover conceptual material covered after the Unit 4 test. You will also need to draw on R skills from throughout the semester.
+The final will cover conceptual and programming material covered after the last regular unit exam. You will also need to draw on R skills from throughout the semester.
 
 The final exam will \ldots{}
-1, Take place during finals week on the day scheduled by the University
-1. Is required
-1. Follow the general format of other tests.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Take place during finals week on the day scheduled by the University
+\item
+  Is required
+\item
+  Follow the general format of other tests.
+\end{enumerate}
 
 The final exam is required and will be scheduled as per the University calendar.
 
-As noted elsewhere your lowest test score will be automatically dropped and your score for tests calculated based on your 3 best tests. Additionally, I will compare your performance on the final to those three tests and if your score on the final is higher then I will upgrade that score to your score on the final. Your final eaxm can therefore contribute to you score in 2 ways - as the final, and as a replacement of your second lowest of the 4 unit tests. Therefore, one of your exams is always dropped, and a second one is potentially replaced.
+As noted elsewhere your lowest test score will be automatically dropped and your score for tests calculated based on your 2 best tests.
 
 \hypertarget{exam-buffer-question-policy}{%
 \section{Exam ``buffer question'' policy}\label{exam-buffer-question-policy}}
 
-The unit tests and the final exam will have 1 to 2 ``buffer points.'' The way this work is that there will be, for example, 26 questions but the test will be worth a maximum of 25 points. The maximum score on the test will be capped at 25 points. If you miss 1 question you will get 25/25 points instead of 25/26. If you miss two questions you will get 24/25 and so forth. Scores greater than 100\% will not be given.
+The unit tests and the final exam will have 1 to 2 ``buffer point.'' The way this work is that there will be, for example, 26 questions but the test will be worth a maximum of 25 points. The maximum score on the test will be capped at 25 points. If you miss 1 question you will get 25/25 points instead of 25/26. If you miss 2 questions you will get 24/25 and so forth. Scores greater than 100\% will \emph{not} be given.
 
 \hypertarget{homework}{%
 \chapter{Assessments - Homework policies}\label{homework}}
 
-Homework for outside of class will be assigned via Canvas.
-
+Homework for outside of class will be assigned via Canvas.\\
+ß
 \textbf{Late assignments:} Canvas will automatically deduct 0.5\% of your score on all non-test assignments per hour, rounding to the nearest hour (12\%/day). 29 minutes = 0 hours = full credit, 31 minutes = 1 hour.
 
 \hypertarget{course-communication---overview}{%
 \chapter{Course communication - Overview}\label{course-communication---overview}}
 
-\hypertarget{primary-modes-of-communication}{%
-\section{Primary modes of communication}\label{primary-modes-of-communication}}
-
-All important details will be sent via Canvas messages and mentioned/discussed in class. It is your responsibility to regularly check Canvas messages to stay abreast of the course. Most communication will occur on Fridays, but important updates may be sent out at other times.
-
-\hypertarget{secondary-modes-of-communication}{%
-\section{Secondary modes of communication}\label{secondary-modes-of-communication}}
-
-\hypertarget{github-issues}{%
-\subsection{Github ``issues''}\label{github-issues}}
-
-In this class we will be making extensive use of the code management site \href{https://github.com/}{GitHub}. Most communication about homework and other assignments will occur via GitHub's \href{https://guides.github.com/features/issues/}{Issues}{]} feature. In particular, to foster discussion we will use GitHub Issues to create forums around assignments and you will be required to submit comments.
-
-\hypertarget{microsoft-sharepoint}{%
-\subsection{Microsoft SharePoint}\label{microsoft-sharepoint}}
-
-Files containing code for this course will be distributed using Microsoft Sharepoint. Sharepoint has messaging features which I may pilot test but will not rely on.
+All important details will be sent via Canvas messages and mentioned/discussed in class. It is your responsibility to regularly check Canvas messages to stay abreast of the course. Most communication will occur on Fridays, but important updates may be sent out at other times if necessary.
 
 \hypertarget{email_and_canvas_msg}{%
 \chapter{Course communication - Email and Canvas Messages}\label{email_and_canvas_msg}}
@@ -716,7 +353,7 @@ I try to answer all emails received on weekdays before 5 pm within 24-36 hrs. Em
 
 Please consult this syllabus before asking questions about course policies and the schedule, and refer to relevant information such as URLs, subject headings or dates. Screengrabs are super helpful. If the entire answer to your question can be found in the syllabus I will likely respond by saying ``\emph{This is in the syllabus, Cheers, Dr.~B.}''.
 
-Questions relevant to the whole class may be reposted (with identifying details removed) to Canvas.
+Questions relevant to the whole class may be re-posted (with identifying details removed) to Canvas.
 
 \hypertarget{communication---university-email-policy}{%
 \chapter{Communication - University email policy}\label{communication---university-email-policy}}
@@ -753,22 +390,7 @@ Reading will take several forms:
 \item
   articles and blog posts,
 \item
-  textbook readings.
-\end{enumerate}
-
-Importantly, we'll be taking a very novel approach to the textbook for this course: \textbf{you will actually be building it yourself!}
-
-Details will be provided in-class, but the gist regarding the textbook is:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Most weeks you will be provided 1 or 2 chapters of the book in the form of computer files (``scripts'').
-\item
-  For homework you will do exercises embedded in the chapters.
-\item
-  When the exercises are successfully completed you will be able to convert the files to Web Pages and post them to your own Portfolio of book chapters and other completed activities.
+  textbook readings
 \end{enumerate}
 
 \hypertarget{course-materials---software}{%
@@ -784,11 +406,11 @@ For information on getting started with R see \href{https://brouwern.github.io/g
 \hypertarget{programming-environment-r}{%
 \subsection{Programming environment: R}\label{programming-environment-r}}
 
-We will use the open-source language \protect\hyperlink{r}{R})(\url{https://cran.r-project.org/}) for almost everything in this course.
+We will use the open-source language {[}R{]})(\url{https://cran.r-project.org/}) for almost everything in this course.
 
 \textbf{NOTE}: If you have used R before that's awesome!
 
-However, \textbf{Please update your installation when the class begins} - R goes through regular updates and works best with the newest version.
+However, \textbf{PLEAE PLEASE PLEASE update your installation when the class begins} - R goes through regular updates and works best with the newest version.
 
 If you are having trouble installing R an excellent resource is:
 \url{https://learningstatisticswithr.com/book/introR.html}
@@ -801,40 +423,23 @@ R Core Team (2021). R: A language and environment for statistical computing. R F
 
 We'll use \href{https://www.rstudio.com/}{RStudio} as the front-end for working with R.
 
-\textbf{NOTE}: If you've use RStudio before please update it when the course begins.
+\textbf{NOTE}: If you've use RStudio before \textbf{please update it} when the course begins.
 
 \textbf{{[}RStudio{]}(\url{https://www.rstudio.com/}:} www.rstudio.com/products/rstudio/download/\#download
 
 \hypertarget{cloud-based-r}{%
 \subsection{Cloud-based R}\label{cloud-based-r}}
 
-As a back-up to running R on your desktop I'll also introduce you to {[}RStudio Cloud{]}(\url{https://rstudio.cloud/}. There are also several excellent \href{https://rstudio.cloud/learn/primers}{primers} which we'll use.
+We will use several web-based services to run R. First, we will use the online machine-learning platform \href{https://www.kaggle.com/}{Kaggle} and the Notebooks feature to run code in a user-friendly environment. You can make a Kaggle account with your University or personal email address.
+
+Additionally, as a back-up to running R on your desktop I'll also introduce you to {[}RStudio Cloud{]}(\url{https://rstudio.cloud/}. There are also several excellent \href{https://rstudio.cloud/learn/primers}{primers} which we'll use.
 
 \textbf{\href{https://rstudio.cloud/}{RStudio cloud}:} \url{https://rstudio.cloud/}
-
-\hypertarget{code-sharing}{%
-\section{Code sharing}\label{code-sharing}}
-
-\hypertarget{microsoft-sharepoint-1}{%
-\subsection{Microsoft SharePoint}\label{microsoft-sharepoint-1}}
-
-R code and other files will be distributed to you via a personal folder on \textbf{SharePoint}, accessed via your \textbf{OneDrive} account.
-
-You will need to ``sync'' your OneDrive account to your computer desktop to allow me to help you with your work. No code files will be shared via email or Canvas during the course.
-
-\textbf{NOTE}: If you do not have access to a computer you can sync your OneDrive account please contact me so we can workout a system.
-
-\hypertarget{github}{%
-\subsection{GitHub}\label{github}}
-
-Most code for this course will be available on \href{https://github.com/}{GitHub} and you will need to create an account for some activities.
-
-Links will be distributed directly to you, but you can also see key resources pinned to my profile at \url{https://github.com/brouwern}
 
 \hypertarget{r-packages}{%
 \section{R packages}\label{r-packages}}
 
-Many R packages (aka libraries) will be used in this course. Below are several key ones.
+Many R \textbf{packages} (aka libraries) will be used in this course. Below are several key ones.
 
 \hypertarget{swirl}{%
 \subsection{swirl}\label{swirl}}
@@ -866,31 +471,13 @@ No extra credit will be offered in this course.
 
 ``Buffer questions'' on the mini-tests and the final are NOT extra credit.
 
-Exam revision assignments are not extra credit and do not add points to your test score.
-
 \hypertarget{file_names}{%
 \chapter{File names for homework}\label{file_names}}
-
-\hypertarget{files-provided-by-me}{%
-\section{Files provided by me}\label{files-provided-by-me}}
-
-You will be provided templates for most files you end up submitting for homework in this class. These file names will contain:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Your Pitt user name (e.g.~nlb24)
-\item
-  Your last name or a concatenated version of it (e.g.~brouwer)
-\end{enumerate}
-
-If you recieve an incorrect file name you may update it with your user name and last name. Otherwise, Please do not alter these file names unless instructed.
 
 \hypertarget{files-created-by-you}{%
 \section{Files created by you}\label{files-created-by-you}}
 
-All files your create on your ownwhich get submitted for homework need to be in lower case and \textbf{strictly} adhere to this format:
+All files your create on your own which get submitted for homework need to be in lower case and \textbf{strictly} adhere to this format:
 
 \begin{quote}
 ``pittemail\_lastname\_assignmenttitle''
@@ -913,10 +500,10 @@ Files will be downloaded and processed automatically so it is essential that you
 \chapter{Grading scale}\label{grading-scale}}
 
 \begin{longtable}[]{@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.26}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.11}}
-  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.11}}@{}}
-\toprule
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2639}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1111}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1111}}@{}}
+\toprule()
 \begin{minipage}[b]{\linewidth}\centering
 Final.Percentage
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
@@ -924,7 +511,7 @@ Grade
 \end{minipage} & \begin{minipage}[b]{\linewidth}\centering
 GPA
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 98--100\% & A+ & 4 \\
 92--97 & A & 4 \\
@@ -939,7 +526,7 @@ GPA
 62--67 & D & 1 \\
 60--61 & D- & 0.75 \\
 59 and below & F & 0 \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \textbf{Note}: Students planning to major in Biological Sciences must pass this course with a C (not C- !) or better. Rounding is not done until final grades are computed and is done by computer to 1 decimal place.
@@ -953,7 +540,7 @@ Note: Students planning to major in Computational Biology must pass this course 
 
 During this pandemic, it is extremely important that you abide by the public health regulations, the University of Pittsburgh's health standards and guidelines, and Pitt's Health Rules.
 
-These rules have been developed to protect the health and safety of all of us. Universal face covering is required in all classrooms and in every building on campus, without exceptions, regardless of vaccination status. This means you must wear a face covering that properly covers your nose and mouth when you are in the classroom. If you do not comply, you will be asked to leave class. It is your responsibility to have the required face covering when entering a university building or classroom. For the most up-to-date information and guidance, please visit \url{coronavirus.pitt.edu}. and check your Pitt email for updates before each class.
+These rules have been developed to protect the health and safety of all of us. Please check your Pitt email for updates to the current masking policy.
 
 \hypertarget{metnal-health-wellness}{%
 \chapter{Metnal health \& wellness}\label{metnal-health-wellness}}
@@ -997,12 +584,12 @@ Password: ``BLOSUM'' (all caps)
 
 \textbf{Other days:} By \href{www.calendly.com/brouwern}{appointment}: \href{www.calendly.com/brouwern}{calendly.com/brouwern}
 
-Office hours will be offered initially only via Zoom. After the first 2 weeks of the semester I evaluate if I will begin in-person office hours on Wednesdays.
+Office hours will be via Zoom and in-person.
 
 \hypertarget{uta-office-hours}{%
 \section{UTA OFFICE HOURS}\label{uta-office-hours}}
 
-UTA office hours will be posted by the beginning of the 2nd week of lectures.\\
+UTA office hours will be posted by the beginning of the 2nd week of lectures.
 
 \hypertarget{individual-appointments}{%
 \section{Individual appointments}\label{individual-appointments}}
@@ -1016,14 +603,10 @@ If office hours or available times for appointments do not work for you, please 
 
 You can view the point breakdown and a summary of related policies \href{https://docs.google.com/spreadsheets/d/1G_-Iqg85j5HgYVSwHyutMkaZWkZzbr32we-HVjJZhdk/edit?usp=sharing}{here}. Commenting is enabled; feel free to post questions.
 
-\href{https://docs.google.com/spreadsheets/d/1G_-Iqg85j5HgYVSwHyutMkaZWkZzbr32we-HVjJZhdk/edit?usp=sharing}{\includegraphics{1540_syllabus_files/figure-latex/unnamed-chunk-3-1.pdf}}
-
 \hypertarget{semester-schedule}{%
 \chapter{Semester schedule}\label{semester-schedule}}
 
 The schedule of tests is available \href{https://docs.google.com/spreadsheets/d/1Zsqfqako3ctJByqRzbU2bTcv7fCXCKLHp_RDfzd-Qmg/edit?usp=sharing}{here}.
-
-\href{https://docs.google.com/spreadsheets/d/1Zsqfqako3ctJByqRzbU2bTcv7fCXCKLHp_RDfzd-Qmg/edit?usp=sharing}{\includegraphics{1540_syllabus_files/figure-latex/unnamed-chunk-4-1.pdf}}
 
 A calendar for the semester will be posted with key University dates and tests.
 
@@ -1033,8 +616,6 @@ A calendar for the semester will be posted with key University dates and tests.
 A summary of weekly events is available \href{https://docs.google.com/spreadsheets/d/12ryH_WBJadioURhMu9HHSO1NxyBA6f9QAuTdasXkY3Y/edit?usp=sharing}{here}. Commenting is enabled; feel free to post questions.
 
 Each Friday I will send out an message via Canvas that will layout the topics and tasks for the following week.
-
-\href{https://docs.google.com/spreadsheets/d/12ryH_WBJadioURhMu9HHSO1NxyBA6f9QAuTdasXkY3Y/edit?usp=sharing}{\includegraphics{1540_syllabus_files/figure-latex/unnamed-chunk-5-1.pdf}}
 
 \hypertarget{tophat}{%
 \chapter{TopHat}\label{tophat}}
@@ -1057,19 +638,16 @@ If changes occur after the first day of class, they will be clearly communicated
 \hypertarget{videos-of-lectures}{%
 \chapter{Videos of lectures}\label{videos-of-lectures}}
 
-The first two weeks of class lecture will be recorded using Zoom and posted to Panopto.
-
-After the first lecture I will distribute the Panopto folder where the videos will be saved.
-
-Note: Since this class is not meant to be taken asynchronously I will not actively support use of these videos.
+This is an in-person course. Lectures will not be live-streamed. Recordings of at least the audio of each lecture will be posted for reference. I can briefly review key parts of lectures during office hours but will not fill in all the gaps in your notes if you missed class. It is your responsibility to watch the class recordings and obtain notes you missed from classmates.
 
 \hypertarget{zoom}{%
 \chapter{Zoom}\label{zoom}}
 
-Class will be in-person and streamed live via Zoom the first two weeks.
+I will use Zoom for recording my lectures and posting them to Panopto but will not release the link for watching the lecture off-site.
 
-\url{https://pitt.zoom.us/j/99372114800}\strut \\
-Password: ``BLOSUM''
+Each student can take 1 regular unit exam remotely during the scheduled exam period. You must contact me ahead of time to do this.
+
+The final exam must be taken in-person.
 
 \hypertarget{appendix-graduate-school}{%
 \chapter{Appendix: graduate school}\label{appendix-graduate-school}}
@@ -1112,7 +690,9 @@ Translations of some of these cheat sheets can be found at the bottom of the RSt
 \hypertarget{appendix-getting-involved-in-computational-research}{%
 \chapter{Appendix: Getting involved in (computational) research}\label{appendix-getting-involved-in-computational-research}}
 
-Approaching a PI - A guide for undergraduates \url{https://thefemalescientist.com/guide/madeleine-hann/2053/approaching-a-pi-a-guide-for-undergraduates-in-stem/}
+Approaching a PI - A guide for undergraduates
+
+\url{https://thefemalescientist.com/guide/madeleine-hann/2053/approaching-a-pi-a-guide-for-undergraduates-in-stem/}
 
 \hypertarget{shortcuts-in-r}{%
 \chapter{Shortcuts in R}\label{shortcuts-in-r}}
