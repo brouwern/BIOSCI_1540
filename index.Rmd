@@ -12,5 +12,5 @@ description: "Syllabus and resources for BioSci 1540: Computational Biology, at 
 
 # Welcome
 
-This is the syllabus.
+This is the syllabus and resources for BioSci 1540: Computational Biology, at the University of Pittsburgh
 

@@ -8,7 +8,7 @@ For information on getting started with R see [Get R Done!](https://brouwern.git
 
 ### Programming environment: R
 
-We will use the open-source language [R])(https://cran.r-project.org/) for almost everything in this course.
+We will use the open-source language [R](https://cran.r-project.org/) for almost everything in this course.
 
 **NOTE**: If you have used R before that's awesome!    
 

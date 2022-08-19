@@ -22,9 +22,14 @@ The key assessments are:
 1. **In-class Worksheets**; you'll usually complete these in-class and submit and image of them online via Canvas.  These are typically graded for participation / completion.
 1. **Other assignments**: Other small assignments may be given for completion outside of class.
 
+
+As detailed elsewhere in the syllabus a portion of each of these individuals components of your grade will be dropped to accommodate illness or other personal issues.  You do not need to submit information (e.g. from a doctor) when you miss an assignment or test.
+
+Sometimes assignments or questions will be marked as being based partially or entirely scored for participation.  These assignments ARE required - "for participation" does NOT mean optional. 
+
 ## Pracice problems
 
-Other materials will be provided for optional practice.  These will be set to zero points.
+Occasionally, fully optional assignments worth 0 points will be released - these will be clearly marked as worth 0 points and for practice only.
 
 1. **Canvas Quiz questions** related to vocab, code, concepts etc.
 1. **Optional Portfolio assignments**
