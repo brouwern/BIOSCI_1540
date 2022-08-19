@@ -39,9 +39,6 @@ office-hours
 instructor-office-hours
 uta-office-hours
 individual-appointments
-points
-semester-schedule
-weekly-schedule
 tophat
 updates-to-schedule-syllabus
 videos-of-lectures
