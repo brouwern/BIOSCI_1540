@@ -1,9 +1,11 @@
 # Videos of lectures
 
-The first two weeks of class lecture will be recorded using Zoom and posted to Panopto.
+This is an in-person course.  Lectures will not be live-streamed.  Recordings of at least the audio of each lecture will be posted for reference.  I can briefly review key parts of lectures during office hours but will not fill in all the gaps in your notes if you missed class.  It is your responsibility to watch the class recordings and obtain notes you missed from classmates.
 
-After the first lecture I will distribute the Panopto folder where the videos will be saved.
+<!-- The first two weeks of class lecture will be recorded using Zoom and posted to Panopto. -->
 
-Note: Since this class is not meant to be taken asynchronously I will not actively support use of these videos.
+<!-- After the first lecture I will distribute the Panopto folder where the videos will be saved. -->
+
+<!-- Note: Since this class is not meant to be taken asynchronously I will not actively support use of these videos. -->
 
 <!-- TODO: finalize policy -->

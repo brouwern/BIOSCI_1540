@@ -1,36 +1,62 @@
 # Assessments Overview {#assessments}
 
-The primary form of assessment in the course will be 5 unit tests.
+The primary forms of assessment in the course will i) exams, ii) regular submission of "portfolio" assignments, and iii) individual projects.
 
-The final is the 5th unit test, but will also draw on themes from throughout the semester
+## Primary assessments
+
+The key assessments are:
+
+1. **1 R programming basics quiz**: A "take-home" Canvas quiz at the end of the 2nd week of class.  
+1. **3 Unit Exams**: In-class exams to test you mastery of computational biology concepts and their implementations in R.
+1. **1 Capstone Exam**: During the **final exam** period you will take an exam on material from the 4th and final unit of the class, which serves as a capstone unit where themes from throughout the course are brought together.  This is a semi-cumulative exam.  
+1. **1 to 2 weekly portfolio assignments**: Each week you will be given an assignment to test your understanding of key concepts and programming principles.  Through these assignments you will build up an **online portfolio** of all your code from throughout the semester.
+1. **1 to 2 individual projects**: Over the course of the semester you will begin working on individual-based analyses of unique biological datasets or problems.  You will build up your analyses incrementally over the course of the semester by adapting code from your portfolio assignments to your individual datasets.
+
 <!-- Annual update: current number of tests? -->
 
-Other forms of assessment will include,  
-1. **Test revisions** (aka Test Reworks), which will count as a form of homework and do not add points back to your test.  
-1. **Canvas Quiz questions** related to lecture videos, **Code checkpoints** to assure that you can execute key functions, and **Software checkpoints** to assure that you have the proper software involved.
-1. Additional homework
-1. Practice tests or test preparation assignments.
+## Secondary assessments
+
+1. **Software checkpoints** to assure that you have the proper software involved.  These are usually completed by submitting a screen grab of your computer console showing successful installation of the software.
+1. **Code checkpoints** to assure that you can execute key functions correctly before attempting portfolio assignments. These are usually completed by submitting a screen grab of your computer console showing successful execution of the code.
+1. **In-class TopHat** polls, questions and small assignments.  These are typically graded for participation.
+1. **In-class Worksheets**; you'll usually complete these in-class and submit and image of them online via Canvas.  These are typically graded for participation / completion.
+1. **Other assignments**: Other small assignments may be given for completion outside of class.
+
+## Pracice problems
+
+Other materials will be provided for optional practice.  These will be set to zero points.
+
+1. **Canvas Quiz questions** related to vocab, code, concepts etc.
+1. **Optional Portfolio assignments**
+1. **Previous exam questions** or full **Practice tests**.  These questions may not always align perfectly with current course content but will give you an idea of the types of questions that will appear on an upcoming exam.
+
+
+<!-- 1. **Test revisions** (aka Test Reworks), which will count as a form of homework and do not add points back to your test. -->
 
 ## Test-taking policies
 
-Tests will be in-person during the regularly schedule time and administered as a combination of 
+Except for the first R quiz, tests will be in-person during the regularly schedule time and administered as **Canvas Quiz.** Components of exam typically include
 
-1. Stand-alone canvas quiz questions
-1. Canvas quiz questions based on code I provide
-1. Code-based questions which you'll answer via a separtate file, submitted via Canvas.
+1. Stand-alone canvas quiz questions 
+1. Code-based questions which you'll answer via a separate file, submitted via Canvas.  Submissions are typically images or code files.
 
 
 ## Key test policies
 
-1. All answers will be submitted by the end of the normal class period.  
-1. If you are unable to take or complete an exam your score will be eligible to be dropped or replaced as specified elsewhere in the syllabus.
-1. It is your responsibility to assure that you have adequate power in your devices and internet access to complete exams.  
+1. All answers will be submitted by the end of the normal class period.
+1. With prior approval you will be able to take 1 exam remotely via Zoom over the course the semester.  The final must be taken in-person.
+1. Your lowest of the three regular unit exams will be dropped, e.g. if you miss an exam entirely due to illness.  The final exam cannot be dropped. 
+1. Make-up exams and exam re-takes will not be offered.
+1. It is your responsibility to assure that you have adequate power in your devices and internet access to complete exams.  Please take your power cord to class!  
 1. Adjustments will be made as necessary for students with DRS accommodations.
 1. You may not communicate with other students while taking a test.
 
 ## Test dropping policy
 
-Your lowest unit test will be dropped.  Your second-lowest score can be replaced by the final, if you score higher on the final.  See the section on the final exam for further explanation.
+Your lowest regular unit test will be dropped.  The final exam CANNOT be dropped.
+
+
+<!-- Your second-lowest score can be replaced by the final, if you score higher on the final.  See the section on the final exam for further explanation. -->
 
 <!-- TODO: students in quarantine? -->
 
@@ -43,19 +69,22 @@ Your lowest unit test will be dropped.  Your second-lowest score can be replaced
 
 ## Final Exam Policies
 
-The final will cover conceptual material covered after the Unit 4 test.  You will also need to draw on R skills from throughout the semester. 
+The final will cover conceptual and programming material covered after the last regular unit exam.  You will also need to draw on R skills from throughout the semester. 
 
 The final exam will ...
-1, Take place during finals week on the day scheduled by the University
+
+1. Take place during finals week on the day scheduled by the University
 1. Is required
 1. Follow the general format of other tests.
 
 
 The final exam is required and will be scheduled as per the University calendar. 
 
-As noted elsewhere your lowest test score will be automatically dropped and your score for tests calculated based on your 3 best tests.  Additionally,  I will compare your performance on the final to those three tests and if your score on the final is higher then I will upgrade that score to your score on the final.  Your final eaxm can therefore contribute to you score in 2 ways - as the final, and as a replacement of your second lowest of the 4 unit tests.  Therefore, one of your exams is always dropped, and a second one is potentially replaced.
+As noted elsewhere your lowest test score will be automatically dropped and your score for tests calculated based on your 2 best tests.  
+
+<!-- Additionally,  I will compare your performance on the final to those three tests and if your score on the final is higher then I will upgrade that score to your score on the final.  Your final exam can therefore contribute to you score in 2 ways - as the final, and as a replacement of your second lowest of the 4 unit tests.  Therefore, one of your exams is always dropped, and a second one is potentially replaced. -->
 
 
 ## Exam "buffer question" policy
 
-The unit tests and the final exam will have 1 to 2 "buffer points."  The way this work is that there will be, for example, 26 questions but the test will be worth a maximum of 25 points.  The maximum score on the test will be capped at 25 points.  If you miss 1 question you will get 25/25 points instead of 25/26.  If you miss two questions you will get 24/25 and so forth.  Scores greater than 100% will not be given.
+The unit tests and the final exam will have 1 to 2 "buffer point."  The way this work is that there will be, for example, 26 questions but the test will be worth a maximum of 25 points.  The maximum score on the test will be capped at 25 points.  If you miss 1 question you will get 25/25 points instead of 25/26.  If you miss 2 questions you will get 24/25 and so forth.  Scores greater than 100% will *not* be given.

@@ -2,16 +2,17 @@
 
 **This is the syllabus for BIOSCI 1540: Computational Biology.**
 
-This is both the first course in the core sequence of classes of the Computational Biology major and also an elective for most Biological Sciences majors.
+This is both the first course in the core sequence of classes of the Computational Biology major, as well an elective for most Biological Sciences majors.
 
-This syllabus contains both key course policies and also is a repository for useful information about computational biology.
+This syllabus contains both key course policies and also is a repository for useful information about the rapidly expanding and evolving field of computational biology.
 
 The first several pages contain key information about the course.  Subsequent pages are organized alphabetically by major topic.
 
-Pages marked "Appendix" are additional information about computational biology or research that you may find useful.
+Pages marked "**Appendix**" are additional information about computational biology or undergraduate research that you may find useful.
 
-Your first assignment in the class will be to read through the syllabus and complete a "Syllabus treasure hunt" assignment on Canvas.  
+<!-- Your first assignment in the class will be to read through the syllabus and complete a "Syllabus treasure hunt" assignment on Canvas.   -->
 
-If you have a question about the syllabus (after you complete the syllabus treasure hunt) or even just spot a typo, post a comment on [GitHub](https://github.com/brouwern/BIOSCI_1540) at [https://github.com/brouwern/BIOSCI_1540](https://github.com/brouwern/BIOSCI_1540)  
+<!-- If you have a question about the syllabus (after you complete the syllabus treasure hunt) or even just spot a typo, post a comment on [GitHub](https://github.com/brouwern/BIOSCI_1540) at [https://github.com/brouwern/BIOSCI_1540](https://github.com/brouwern/BIOSCI_1540)   -->
 
-You'll be shown how to add comments on GitHub in class.  The next page of the syllabus is a page for practicing adding comments.
+<!-- You'll be shown how to add comments on GitHub in class.  The next page of the syllabus is a page for practicing adding comments. -->
+

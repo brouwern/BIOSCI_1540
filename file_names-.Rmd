@@ -1,18 +1,18 @@
 # File names for homework {#file_names}
 
-## Files provided by me 
+<!-- ## Files provided by me  -->
 
-You will be provided templates for most files you end up submitting for homework in this class.  These file names will contain:
+<!-- You will be provided templates for most files you end up submitting for homework in this class.  These file names will contain: -->
 
-1. Your Pitt user name (e.g. nlb24)
-1. Your last name or a concatenated version of it (e.g. brouwer)
+<!-- 1. Your Pitt user name (e.g. nlb24) -->
+<!-- 1. Your last name or a concatenated version of it (e.g. brouwer) -->
 
-If you recieve an incorrect file name you may update it with your user name and last name.  Otherwise, Please do not alter these file names unless instructed.
+<!-- If you receive an incorrect file name you may update it with your user name and last name.  Otherwise, Please do not alter these file names unless instructed. -->
 
 
 ## Files created by you
 
-All files your create on your ownwhich get submitted for homework need to be in lower case and **strictly** adhere to this format:
+All files your create on your own which get submitted for homework need to be in lower case and **strictly** adhere to this format:
 
 > "pittemail_lastname_assignmenttitle"
 

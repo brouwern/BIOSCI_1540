@@ -1,6 +1,13 @@
 # Zoom {#zoom}
 
-Class will be in-person and streamed live via Zoom the first two weeks.  
+I will use Zoom for recording my lectures and posting them to Panopto but will not release the link for watching the lecture off-site.
 
-https://pitt.zoom.us/j/99372114800  
-Password: "BLOSUM"  
+Each student can take 1 regular unit exam remotely during the scheduled exam period.  You must contact me ahead of time to do this.
+
+The final exam must be taken in-person.
+
+
+<!-- Class will be in-person and streamed live via Zoom the first two weeks.   -->
+
+<!-- https://pitt.zoom.us/j/99372114800   -->
+<!-- Password: "BLOSUM"   -->

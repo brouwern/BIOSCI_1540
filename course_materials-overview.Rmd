@@ -6,15 +6,15 @@ Reading will take several forms:
 
 1. files containing computer code (scripts)
 1. articles and blog posts, 
-1. textbook readings.   
+1. textbook readings   
 
-Importantly, we'll be taking a very novel approach to the textbook for this course: **you will actually be building it yourself!**
+<!-- Importantly, we'll be taking a very novel approach to the textbook for this course: **you will actually be building it yourself!** -->
 
-Details will be provided in-class, but the gist regarding the textbook is:
+<!-- Details will be provided in-class, but the gist regarding the textbook is: -->
 
-1. Most weeks you will be provided 1 or 2 chapters of the book in the form of computer files ("scripts").
-1. For homework you will do exercises embedded in the chapters.
-1. When the exercises are successfully completed you will be able to convert the files to Web Pages and post them to your own Portfolio of book chapters and other completed activities.
+<!-- 1. Most weeks you will be provided 1 or 2 chapters of the book in the form of computer files ("scripts"). -->
+<!-- 1. For homework you will do exercises embedded in the chapters. -->
+<!-- 1. When the exercises are successfully completed you will be able to convert the files to Web Pages and post them to your own Portfolio of book chapters and other completed activities. -->
 
 
 <!-- Example of RPubs? A completed chapter will look like this: ...-->

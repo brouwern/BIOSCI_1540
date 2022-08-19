@@ -12,7 +12,7 @@ We will use the open-source language [R])(https://cran.r-project.org/) for almos
 
 **NOTE**: If you have used R before that's awesome!    
 
-However, **Please update your installation when the class begins** - R goes through regular updates and works best with the newest version.
+However, **PLEAE PLEASE PLEASE update your installation when the class begins** - R goes through regular updates and works best with the newest version.
 
 If you are having trouble installing R an excellent resource is: 
 https://learningstatisticswithr.com/book/introR.html
@@ -27,40 +27,43 @@ R Core Team (2021). R: A language and environment for statistical computing. R F
 
 We'll use [RStudio](https://www.rstudio.com/) as the front-end for working with R.
 
-**NOTE**: If you've use RStudio before please update it when the course begins.
+**NOTE**: If you've use RStudio before **please update it** when the course begins.
 
 **[RStudio](https://www.rstudio.com/:** www.rstudio.com/products/rstudio/download/#download  
 
 ### Cloud-based R
 
-As a back-up to running R on your desktop I'll also introduce you to [RStudio Cloud](https://rstudio.cloud/.  There are also several excellent [primers](https://rstudio.cloud/learn/primers) which we'll use.  
+We will use several web-based services to run R.  First, we will use the online machine-learning platform [Kaggle](https://www.kaggle.com/) and the Notebooks feature to run code in a user-friendly environment.  You can make a Kaggle account with your University or personal email address.
+
+Additionally, as a back-up to running R on your desktop I'll also introduce you to [RStudio Cloud](https://rstudio.cloud/.  There are also several excellent [primers](https://rstudio.cloud/learn/primers) which we'll use.  
 
 **[RStudio cloud](https://rstudio.cloud/):** https://rstudio.cloud/ 
 
-## Code sharing
+<!-- ## Code sharing -->
 
-### Microsoft SharePoint
+<!-- ### Microsoft SharePoint -->
 
-R code and other files will be distributed to you via a personal folder on **SharePoint**, accessed via your **OneDrive** account.
+<!-- R code and other files will be distributed to you via a personal folder on **SharePoint**, accessed via your **OneDrive** account. -->
 
-You will need to "sync" your OneDrive account to your computer desktop to allow me to help you with your work.  No code files will be shared via email or Canvas during the course.
+<!-- You will need to "sync" your OneDrive account to your computer desktop to allow me to help you with your work.  No code files will be shared via email or Canvas during the course. -->
 
 
-**NOTE**: If you do not have access to a computer you can sync your OneDrive account please contact me so we can workout a system.
+<!-- **NOTE**: If you do not have access to a computer you can sync your OneDrive account please contact me so we can workout a system. -->
 
 
 <!-- TODO: how to sync onedrive -->
 
-### GitHub
+<!-- ### GitHub -->
 
-Most code for this course will be available on [GitHub](https://github.com/ ) and you will need to create an account for some activities.  
+<!-- Most code for this course will be available on [GitHub](https://github.com/ ) and you will need to create an account for some activities.   -->
 
-Links will be distributed directly to you, but you can also see key resources pinned to my profile at [https://github.com/brouwern](https://github.com/brouwern)
+<!-- Links will be distributed directly to you, but you can also see key resources pinned to my profile at [https://github.com/brouwern](https://github.com/brouwern) -->
+
 
 
 ## R packages
 
-Many R packages (aka libraries) will be used in this course.  Below are several key ones.
+Many R **packages** (aka libraries) will be used in this course.  Below are several key ones.
 
 ### swirl {#swirl}
 

@@ -4,4 +4,4 @@ No extra credit will be offered in this course.
 
 "Buffer questions" on the mini-tests and the final are NOT extra credit.
 
-Exam revision assignments are not extra credit and do not add points to your test score.
+<!-- Exam revision assignments are not extra credit and do not add points to your test score. -->
