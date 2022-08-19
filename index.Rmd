@@ -14,9 +14,3 @@ description: "Syllabus and resources for BioSci 1540: Computational Biology, at 
 
 This is the syllabus.
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
-

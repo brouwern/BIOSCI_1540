@@ -7,8 +7,8 @@ Email: nlb24 at pitt.edu
 Github: [https://github.com/brouwern](https://github.com/brouwern)  
 
 
-<center><src="https://www.biology.pitt.edu/sites/default/files/BrouwerN.jpeg"></center>
 
+![](https://www.biology.pitt.edu/sites/default/files/BrouwerN.jpeg)
 
 
   
