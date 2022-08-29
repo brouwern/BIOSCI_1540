@@ -8,7 +8,7 @@ This syllabus contains both key course policies and also is a repository for use
 
 The first several pages contain key information about the course.  Subsequent pages are organized alphabetically by major topic.
 
-Pages marked "**Appendix**" are additional information about computational biology or undergraduate research that you may find useful.
+Pages marked "**Appendix**" contain additional information about R, computational biology or undergraduate research that you may find useful.
 
 <!-- Your first assignment in the class will be to read through the syllabus and complete a "Syllabus treasure hunt" assignment on Canvas.   -->
 

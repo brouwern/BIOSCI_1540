@@ -2,13 +2,14 @@
 
 Installation and account creation for all software will be covered in detail during class or via assignments and accompanying videos.  If you want to get prepared early for the course you can explore these on your own.
 
-For information on getting started with R see [Get R Done!](https://brouwern.github.io/getRdone/).
+For information on getting started with R see [Get R Done!](https://brouwern.github.io/getRdone/): https://brouwern.github.io/getRdone
+
 
 ## Primary software
 
 ### Programming environment: R
 
-We will use the open-source language [R](https://cran.r-project.org/) for almost everything in this course.
+We will use the open-source language [R](https://cran.r-project.org/) for almost everything in this course: https://cran.r-project.org
 
 **NOTE**: If you have used R before that's awesome!    
 
@@ -29,13 +30,13 @@ We'll use [RStudio](https://www.rstudio.com/) as the front-end for working with 
 
 **NOTE**: If you've use RStudio before **please update it** when the course begins.
 
-**[RStudio](https://www.rstudio.com/:** www.rstudio.com/products/rstudio/download/#download  
+**[RStudio](https://www.rstudio.com/):** www.rstudio.com/products/rstudio/download/#download  
 
 ### Cloud-based R
 
-We will use several web-based services to run R.  First, we will use the online machine-learning platform [Kaggle](https://www.kaggle.com/) and the Notebooks feature to run code in a user-friendly environment.  You can make a Kaggle account with your University or personal email address.
+We will use several web-based services to run R.  First, we will use the online machine-learning platform [Kaggle](https://www.kaggle.com/) (www.kaggle.com/) and its Notebooks feature to run code in a user-friendly environment.  You can make a Kaggle account with your University or personal email address.
 
-Additionally, as a back-up to running R on your desktop I'll also introduce you to [RStudio Cloud](https://rstudio.cloud/.  There are also several excellent [primers](https://rstudio.cloud/learn/primers) which we'll use.  
+Additionally, as a back-up to running R on your desktop I'll also introduce you to [RStudio Cloud](https://rstudio.cloud/) (https://rstudio.cloud/).  There are also several excellent [primers](https://rstudio.cloud/learn/primers) which we'll use (https://rstudio.cloud/learn/primers).  
 
 **[RStudio cloud](https://rstudio.cloud/):** https://rstudio.cloud/ 
 
@@ -69,10 +70,10 @@ Many R **packages** (aka libraries) will be used in this course.  Below are seve
 
 *swirl* is an R package that sets up interactive tutorials in your R console.  It works both on desktop computers and RStudio cloud and is an excellent tool for learning and reviewing R.  
 
-Details for installing swirl can be found here in [Get R Done!](https://brouwern.github.io/getRdone/swirl.html#swirl).
+Details for installing swirl can be found here in [*Get R Done!*](https://brouwern.github.io/getRdone/swirl.html#swirl): https://brouwern.github.io/getRdone/swirl.html#swirl
 
 ### Bioconductor
 
 **Bioconductor** is a clearing house and repository for high-grade bioinformatics and computational biology software using R. 
 
-Details for installing Bioconductor can be found [here](https://brouwern.github.io/lbrb/installing-bioconductor.html).
+Details for installing Bioconductor can be found [here](https://brouwern.github.io/lbrb/installing-bioconductor.html): https://brouwern.github.io/lbrb/installing-bioconductor.html

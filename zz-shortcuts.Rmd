@@ -1,4 +1,4 @@
-# Shortcuts in R
+# Appendix: Shortcuts in R
 
 Programmers are often obsessed with using keyboard shortcuts.  You'll see me use some, and you might want to learn them. 
 

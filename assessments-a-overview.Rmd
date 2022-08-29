@@ -1,6 +1,6 @@
 # Assessments Overview {#assessments}
 
-The primary forms of assessment in the course will i) exams, ii) regular submission of "portfolio" assignments, and iii) individual projects.
+The primary forms of assessment in the course will i) Unit Exams and a "Capstone" Final Exam, ii) regular submission of "portfolio" assignments, and iii) individual projects.  A
 
 ## Primary assessments
 
@@ -16,8 +16,7 @@ The key assessments are:
 
 ## Secondary assessments
 
-1. **Software checkpoints** to assure that you have the proper software involved.  These are usually completed by submitting a screen grab of your computer console showing successful installation of the software.
-1. **Code checkpoints** to assure that you can execute key functions correctly before attempting portfolio assignments. These are usually completed by submitting a screen grab of your computer console showing successful execution of the code.
+1. **Software checkpoints** and **Code checkpoints** are used to assure that you have the proper software involved.  These are usually completed by submitting a screen grab of your computer console showing successful installation and functioning of the software.
 1. **In-class TopHat** polls, questions and small assignments.  These are typically graded for participation.
 1. **In-class Worksheets**; you'll usually complete these in-class and submit and image of them online via Canvas.  These are typically graded for participation / completion.
 1. **Other assignments**: Other small assignments may be given for completion outside of class.
@@ -27,7 +26,7 @@ As detailed elsewhere in the syllabus a portion of each of these individuals com
 
 Sometimes assignments or questions will be marked as being based partially or entirely scored for participation.  These assignments ARE required - "for participation" does NOT mean optional. 
 
-## Pracice problems
+## Practice problems
 
 Occasionally, fully optional assignments worth 0 points will be released - these will be clearly marked as worth 0 points and for practice only.
 
@@ -56,9 +55,9 @@ Except for the first R quiz, tests will be in-person during the regularly schedu
 1. Adjustments will be made as necessary for students with DRS accommodations.
 1. You may not communicate with other students while taking a test.
 
-## Test dropping policy
+## Exam contribution to final grade
 
-Your lowest regular unit test will be dropped.  The final exam CANNOT be dropped.
+Your 2 best Unit Exams will be used in calculating your final grade.  
 
 
 <!-- Your second-lowest score can be replaced by the final, if you score higher on the final.  See the section on the final exam for further explanation. -->
@@ -83,7 +82,7 @@ The final exam will ...
 1. Follow the general format of other tests.
 
 
-The final exam is required and will be scheduled as per the University calendar. 
+The final exam will be scheduled as per the University calendar and take place in-person.  All students must take the final exam. 
 
 As noted elsewhere your lowest test score will be automatically dropped and your score for tests calculated based on your 2 best tests.  
 
@@ -92,4 +91,10 @@ As noted elsewhere your lowest test score will be automatically dropped and your
 
 ## Exam "buffer question" policy
 
-The unit tests and the final exam will have 1 to 2 "buffer point."  The way this work is that there will be, for example, 26 questions but the test will be worth a maximum of 25 points.  The maximum score on the test will be capped at 25 points.  If you miss 1 question you will get 25/25 points instead of 25/26.  If you miss 2 questions you will get 24/25 and so forth.  Scores greater than 100% will *not* be given.
+The unit tests and the final exam will have 1 to 2 "buffer point."  The way this works is that there will be, for example, 36 questions but the test will scored out of 35 points.  
+
+<!-- The maximum score on the test will be capped at 35 points.   -->
+
+If you miss 1 question you will get 35/35 points.  The maximum score will be 36/35, resulting in extra credit. 
+
+<!-- Scores greater than 100% will *not* be given. -->

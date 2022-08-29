@@ -1,4 +1,4 @@
-# Cheat sheets
+# Appendix: R Cheat sheets
 
 RStudio produces a number of [cheatsheets](https://www.rstudio.com/resources/cheatsheets/#ide); the most useful ones for beginners are below.
 
